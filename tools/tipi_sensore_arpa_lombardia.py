@@ -1,4 +1,5 @@
 import os
+import sys
 import requests
 
 from dotenv import load_dotenv
@@ -9,11 +10,12 @@ fileDestName = "arpa_lombardia_sensori.csv"
 try:
     fileDest = open( os.environ.get("DATA_SRC") + '/' + fileDestName , "w")
 
-    f.write("Tipo Sensore\n")
+    fileDest.write("Tipo Sensore\n")
 
     limit = 1000
     offset = 0
     dataCheck = True
+    tipiLetti = []
 
     while dataCheck:
 
@@ -38,15 +40,24 @@ try:
             if numContents == 0:
                 dataCheck = False
             else:
-                print(f"L'array contiene {numContents} elementi. {offset}")
+
+                for sensore in dataResponse:
+                    print(sensore.tipologia)
+
+                    # if sensore.tipologia not in tipiLetti:
+
+                        tipiLetti.append(sensore.tipologia)
+                    #     fileDest.write(sensore.tipologia + "\n")
+
                 offset += 1000
 
         else:
             dataCheck = False
 
-    print("Fine")
+    # print("Trovati" + len(tipiLetti) + "tipi di sensori.")
 
     fileDest.close()
 
 except Exception as e:
-    print(f"Errore: {e}")
+    # print(e.__doc__)
+    print(e.message)
