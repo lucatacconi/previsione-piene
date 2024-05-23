@@ -8,6 +8,7 @@ load_dotenv()
 fileDestName = "arpa_lombardia_sensori.csv"
 
 try:
+
     fileDest = open( os.environ.get("DATA_SRC") + '/' + fileDestName , "w")
 
     fileDest.write("Tipo Sensore\n")
@@ -42,19 +43,16 @@ try:
             else:
 
                 for sensore in dataResponse:
-                    print(sensore.tipologia)
-
-                    # if sensore.tipologia not in tipiLetti:
-
-                        tipiLetti.append(sensore.tipologia)
-                    #     fileDest.write(sensore.tipologia + "\n")
+                    if sensore['tipologia'] not in tipiLetti:
+                        tipiLetti.append(sensore['tipologia'])
+                        fileDest.write(sensore['tipologia'] + "\n")
 
                 offset += 1000
 
         else:
             dataCheck = False
 
-    # print("Trovati" + len(tipiLetti) + "tipi di sensori.")
+    print("Trovati " + str(len(tipiLetti)) + " tipi di sensori.")
 
     fileDest.close()
 
