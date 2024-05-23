@@ -1,2 +1,2 @@
 #Ignora ogli elemento nel data source
-./data_src/*
+data_src/*
