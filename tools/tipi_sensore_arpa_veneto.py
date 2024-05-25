@@ -5,7 +5,7 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
-fileDestName = "arpa_veneto_sensori.csv"
+fileDestName = "arpa_veneto_tipi_sensore.csv"
 
 try:
     fileDest = open( os.environ.get("DATA_SRC") + '/' + fileDestName , "w")
