@@ -31,6 +31,8 @@ try:
     dataCheck = True
     elementiLetti = 0
 
+    tipiSensoriConsentiti = ['Precipitazione', 'Velocità Vento', 'Direzione Vento', 'Livello Idrometrico']
+
     while dataCheck:
 
         apiUrl = os.environ.get("ARPA_LOMBARDIA_ELENCO_SENSORI")
@@ -54,6 +56,9 @@ try:
         else:
 
             for sensore in dataResponse:
+
+                if sensore['tipologia'] not in tipiSensoriConsentiti:
+                    continue
 
                 fileDest.write(sensore['idsensore'] + separatore)
                 fileDest.write(sensore['tipologia'] + separatore)
