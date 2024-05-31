@@ -1,0 +1,3608 @@
+[
+  {
+    "Codice": "B01001",
+    "Descrizione": "NUMERO DI BLOCCO OMM",
+    "Unità": "Numerico",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B01002",
+    "Descrizione": "NUMERO DELLA STAZIONE WMO",
+    "Unità": "Numerico",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B01006",
+    "Descrizione": "NUMERO DEL VOLO DELL'AEROMOBILE",
+    "Unità": "CITTIA5",
+    "Formato": "8 cifre"
+  },
+  {
+    "Codice": "B01007",
+    "Descrizione": "IDENTIFICATORE SATELLITARE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "4 caratteri"
+  },
+  {
+    "Codice": "B01008",
+    "Descrizione": "NUMERO DI MATRICOLA DELL'AEROMOBILE O ALTRO IDENTIFICAZIONE",
+    "Unità": "CITTIA5",
+    "Formato": "8 cifre"
+  },
+  {
+    "Codice": "B01011",
+    "Descrizione": "IDENTIFICATORE DELLA NAVE O DELLA STAZIONE TERRESTRE MOBILE",
+    "Unità": "CITTIA5",
+    "Formato": "9 cifre"
+  },
+  {
+    "Codice": "B01012",
+    "Descrizione": "DIREZIONE DEL MOVIMENTO DELLA PIATTAFORMA DI OSSERVAZIONE IN MOVIMENTO**",
+    "Unità": "GRADO VERO",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B01013",
+    "Descrizione": "VELOCITÀ DI MOVIMENTO DELLA PIATTAFORMA DI OSSERVAZIONE IN MOVIMENTO*",
+    "Unità": "SM",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B01019",
+    "Descrizione": "NOME LUNGO DELLA STAZIONE O DEL SITO",
+    "Unità": "CITTIA5",
+    "Formato": "32 cifre"
+  },
+  {
+    "Codice": "B01023",
+    "Descrizione": "NUMERO DI SEQUENZA DI OSSERVAZIONE",
+    "Unità": "Numerico",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B01033",
+    "Descrizione": "IDENTIFICAZIONE DEL CENTRO DI ORIGINE/GENERAZIONE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "3 caratteri"
+  },
+  {
+    "Codice": "B01034",
+    "Descrizione": "IDENTIFICAZIONE DEL SOTTOCENTRO ORIGINE/GENERAZIONE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "3 caratteri"
+  },
+  {
+    "Codice": "B01063",
+    "Descrizione": "INDICATORE DI POSIZIONE ICAO",
+    "Unità": "CITTIA5",
+    "Formato": "8 cifre"
+  },
+  {
+    "Codice": "B01192",
+    "Descrizione": "ID della stazione MeteoDB",
+    "Unità": "Numerico",
+    "Formato": "8 cifre"
+  },
+  {
+    "Codice": "B01193",
+    "Descrizione": "Segnala il codice",
+    "Unità": "Numerico",
+    "Formato": "5 cifre"
+  },
+  {
+    "Codice": "B01194",
+    "Descrizione": "Segnala mnemonico",
+    "Unità": "CITTIA5",
+    "Formato": "16 cifre"
+  },
+  {
+    "Codice": "B01212",
+    "Descrizione": "CODICE LOCALE DELLA STAZIONE DI OSSERVAZIONE DELLA QUALITÀ DELL'ARIA",
+    "Unità": "CITTIA5",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B01213",
+    "Descrizione": "CODICE STAZIONE DI OSSERVAZIONE DELLA QUALITÀ DELL'ARIA DELLA BASE",
+    "Unità": "CITTIA5",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B01214",
+    "Descrizione": "CODICE STAZIONE DI OSSERVAZIONE DELLA QUALITÀ DELL'ARIA GEMS",
+    "Unità": "CITTIA5",
+    "Formato": "6 cifre"
+  },
+  {
+    "Codice": "B01215",
+    "Descrizione": "STAZIONE DI OSSERVAZIONE DELLA QUALITÀ DELL'ARIA SORGENTE DI EMISSIONE DOMINANTE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B01216",
+    "Descrizione": "TIPO DI AREA DELLA STAZIONE DI OSSERVAZIONE DELLA QUALITÀ DELL'ARIA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B01217",
+    "Descrizione": "TIPO DI TERRENO DELLA STAZIONE DI OSSERVAZIONE DELLA QUALITÀ DELL'ARIA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B02001",
+    "Descrizione": "TIPO DI STAZIONE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B02002",
+    "Descrizione": "TIPO DI STRUMENTAZIONE PER LA MISURA DEL VENTO",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B02003",
+    "Descrizione": "TIPO DI APPARECCHIATURA DI MISURA UTILIZZATA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B02004",
+    "Descrizione": "TIPO DI STRUMENTAZIONE PER LA MISURA DELL'EVAPORAZIONE O TIPO DI TABELLA CCODE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B02005",
+    "Descrizione": "PRECISIONE DELL'OSSERVAZIONE DELLA TEMPERATURA",
+    "Unità": "K",
+    "Formato": "#.##"
+  },
+  {
+    "Codice": "B02011",
+    "Descrizione": "TIPO RADIOSONDA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "3 caratteri"
+  },
+  {
+    "Codice": "B02012",
+    "Descrizione": "METODO COMPUTAZIONALE DELLE RADIOSONDE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B02013",
+    "Descrizione": "CORREZIONE DELLA RADIAZIONE SOLARE E INFRAROSSA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B02014",
+    "Descrizione": "TECNICA DI TRACCIAMENTO/STATO DEL SISTEMA UTILIZZATO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "3 caratteri"
+  },
+  {
+    "Codice": "B02038",
+    "Descrizione": "METODO DI MISURA DELLA TEMPERATURA E/O DELLA SALINITÀ DELL'ACQUA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B02039",
+    "Descrizione": "METODO DI MISURA DELLA TEMPERATURA DI BULBO UMIDO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B02048",
+    "Descrizione": "INDICATORE SENSORE SATELLITARE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B02061",
+    "Descrizione": "SISTEMA DI NAVIGAZIONE AEREA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B02062",
+    "Descrizione": "TIPO DI SISTEMA DI RELE' DATI DELL'AEROMOBILE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B02063",
+    "Descrizione": "ANGOLO DI RULLO DELL'AEROMOBILE",
+    "Unità": "GRADO",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B02064",
+    "Descrizione": "QUALITÀ DELL'ANGOLO DI RULLO DELL'AEROMOBILE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B02070",
+    "Descrizione": "SPECIFICA ORIGINALE DI LATITUDINE/LONGITUDINE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B02121",
+    "Descrizione": "FREQUENZA MEDIA",
+    "Unità": "Hz",
+    "Formato": "###00000000"
+  },
+  {
+    "Codice": "B02125",
+    "Descrizione": "FREQUENZA DI RIPETIZIONE DEGLI IMPULSI",
+    "Unità": "Hz",
+    "Formato": "###0"
+  },
+  {
+    "Codice": "B04001",
+    "Descrizione": "ANNO",
+    "Unità": "ANNO",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B04002",
+    "Descrizione": "MESE",
+    "Unità": "MESE",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B04003",
+    "Descrizione": "GIORNO",
+    "Unità": "GIORNO",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B04004",
+    "Descrizione": "ORA",
+    "Unità": "ORA",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B04005",
+    "Descrizione": "MINUTO",
+    "Unità": "MINUTO",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B04006",
+    "Descrizione": "SECONDO",
+    "Unità": "SECONDO",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B04086",
+    "Descrizione": "PERIODO DI LUNGO TEMPO O SPOSTAMENTO",
+    "Unità": "SECONDO",
+    "Formato": "5 cifre"
+  },
+  {
+    "Codice": "B04192",
+    "Descrizione": "Tipo di intervallo di tempo",
+    "Unità": "Numerico",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B04193",
+    "Descrizione": "Fascia oraria P1",
+    "Unità": "Numerico",
+    "Formato": "10 cifre"
+  },
+  {
+    "Codice": "B04194",
+    "Descrizione": "Fascia oraria P2",
+    "Unità": "Numerico",
+    "Formato": "10 cifre"
+  },
+  {
+    "Codice": "B04195",
+    "Descrizione": "Evento di temperatura: ora in cui si è verificato",
+    "Unità": "MINUTO",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B04196",
+    "Descrizione": "Evento di umidità relativa - ora in cui si è verificato",
+    "Unità": "MINUTO",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B04197",
+    "Descrizione": "Evento di velocità del vento - momento in cui si è verificato",
+    "Unità": "MINUTO",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B04198",
+    "Descrizione": "Evento di pressione - momento in cui si verifica",
+    "Unità": "MINUTO",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B05001",
+    "Descrizione": "LATITUDINE (ALTA PRECISIONE)",
+    "Unità": "GRADO",
+    "Formato": "###.#####"
+  },
+  {
+    "Codice": "B05015",
+    "Descrizione": "SPOSTAMENTO DI LATITUDINE (ALTA PRECISIONE)",
+    "Unità": "GRADO",
+    "Formato": "###.#####"
+  },
+  {
+    "Codice": "B05021",
+    "Descrizione": "RILEVAMENTO O AZIMUT",
+    "Unità": "GRADO VERO",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B05022",
+    "Descrizione": "AZIMUT SOLARE",
+    "Unità": "GRADO VERO",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B05040",
+    "Descrizione": "NUMERO DI ORBITA",
+    "Unità": "Numerico",
+    "Formato": "8 cifre"
+  },
+  {
+    "Codice": "B05041",
+    "Descrizione": "NUMERO DI LINEA DI SCANSIONE",
+    "Unità": "Numerico",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B05043",
+    "Descrizione": "NUMERO DEL CAMPO VISIVO",
+    "Unità": "Numerico",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B06001",
+    "Descrizione": "LONGITUDINE (ALTA PRECISIONE)",
+    "Unità": "GRADO",
+    "Formato": "###.#####"
+  },
+  {
+    "Codice": "B06015",
+    "Descrizione": "SPOSTAMENTO LONGITUDINALE (ALTA PRECISIONE)",
+    "Unità": "GRADO",
+    "Formato": "###.#####"
+  },
+  {
+    "Codice": "B07002",
+    "Descrizione": "ALTEZZA O ALTITUDINE",
+    "Unità": "M",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B07004",
+    "Descrizione": "PRESSIONE",
+    "Unità": "PAPÀ",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B07007",
+    "Descrizione": "ALTEZZA",
+    "Unità": "M",
+    "Formato": "6 cifre"
+  },
+  {
+    "Codice": "B07010",
+    "Descrizione": "LIVELLO DI VOLO",
+    "Unità": "M",
+    "Formato": "5 cifre"
+  },
+  {
+    "Codice": "B07024",
+    "Descrizione": "ANGOLO ZENITH DEL SATELLITE",
+    "Unità": "GRADO",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B07025",
+    "Descrizione": "ANGOLO ZENITALE SOLARE",
+    "Unità": "GRADO",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B07030",
+    "Descrizione": "ALTEZZA DEL TERRENO DELLA STAZIONE SUL LIVELLO MEDIO DEL MARE (VEDI NOTA 3)",
+    "Unità": "M",
+    "Formato": "#####.#"
+  },
+  {
+    "Codice": "B07031",
+    "Descrizione": "ALTEZZA DEL BAROMETRO SOPRA IL LIVELLO MEDIO DEL MARE (VEDI NOTA 4)",
+    "Unità": "M",
+    "Formato": "#####.#"
+  },
+  {
+    "Codice": "B07032",
+    "Descrizione": "ALTEZZA DEL SENSORE SOPRA IL TERRENO LOCALE (O PONTE DELLA PIATTAFORMA MARINA)M",
+    "Unità": "M",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B07192",
+    "Descrizione": "Tipologia di primo livello",
+    "Unità": "Numerico",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B07193",
+    "Descrizione": "Livello L1",
+    "Unità": "Numerico",
+    "Formato": "10 cifre"
+  },
+  {
+    "Codice": "B07194",
+    "Descrizione": "Livello L2",
+    "Unità": "Numerico",
+    "Formato": "10 cifre"
+  },
+  {
+    "Codice": "B07195",
+    "Descrizione": "Tipologia di secondo livello",
+    "Unità": "Numerico",
+    "Formato": "10 cifre"
+  },
+  {
+    "Codice": "B08002",
+    "Descrizione": "SIGNIFICATO VERTICALE (OSSERVAZIONI DI SUPERFICIE)",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B08004",
+    "Descrizione": "FASE DEL VOLO DELL'AEREO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B08009",
+    "Descrizione": "FASE DETTAGLIATA DEL VOLO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B08021",
+    "Descrizione": "SIGNIFICATO TEMPORALE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B08042",
+    "Descrizione": "SIGNIFICATO DEL SONDA VERTICALE ESTESA",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "6 cifre"
+  },
+  {
+    "Codice": "B08044",
+    "Descrizione": "(VAL) NUMERO DI ISCRIZIONE CAS",
+    "Unità": "CITTIA5",
+    "Formato": "11 cifre"
+  },
+  {
+    "Codice": "B08192",
+    "Descrizione": "Numero di valori medi della velocità del vento presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08193",
+    "Descrizione": "Numero di valori minimi di velocità del vento presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08194",
+    "Descrizione": "Numero di valori massimi di velocità del vento presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08195",
+    "Descrizione": "Numero di valori della direzione prevalente del vento presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08196",
+    "Descrizione": "Numero di valori di temperatura media presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08197",
+    "Descrizione": "Numero di valori di temperatura minima presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08198",
+    "Descrizione": "Numero di valori massimi di temperatura presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08199",
+    "Descrizione": "Numero di valori medi di umidità relativa presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08200",
+    "Descrizione": "Numero di valori minimi di umidità relativa presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08201",
+    "Descrizione": "Numero di valori massimi di umidità relativa presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08202",
+    "Descrizione": "Numero di valori di pressione media presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08203",
+    "Descrizione": "Numero di valori di pressione minima presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08204",
+    "Descrizione": "Numero di valori massimi di pressione presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08205",
+    "Descrizione": "Numero di valori di precipitazione presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08206",
+    "Descrizione": "Numero di valori di bagnatura fogliare presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08207",
+    "Descrizione": "Numero di valori medi scalari della velocità del vento presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08208",
+    "Descrizione": "Numero di valori medi della copertura nuvolosa presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08209",
+    "Descrizione": "Numero di valori massimi della nuvolosità presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B08210",
+    "Descrizione": "Numero di valori minimi di nuvolosità presenti",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B10004",
+    "Descrizione": "PRESSIONE",
+    "Unità": "PAPÀ",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B10007",
+    "Descrizione": "ALTEZZA",
+    "Unità": "M",
+    "Formato": "6 cifre"
+  },
+  {
+    "Codice": "B10008",
+    "Descrizione": "GEOPOTENZIALE",
+    "Unità": "M**2/S**2",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B10009",
+    "Descrizione": "ALTEZZA GEOPOTENZIALE",
+    "Unità": "GPM",
+    "Formato": "6 cifre"
+  },
+  {
+    "Codice": "B10051",
+    "Descrizione": "PRESSIONE RIDOTTA AL LIVELLO MEDIO DEL MARE",
+    "Unità": "PAPÀ",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B10052",
+    "Descrizione": "IMPOSTAZIONE ALTIMETRO (QNH)",
+    "Unità": "PAPÀ",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B10060",
+    "Descrizione": "VARIAZIONE DI PRESSIONE",
+    "Unità": "PAPÀ",
+    "Formato": "####0"
+  },
+  {
+    "Codice": "B10063",
+    "Descrizione": "CARATTERISTICA DELLA TENDENZA DELLA PRESSIONE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B10087",
+    "Descrizione": "Profondità dell'oceano/elevazione del terreno",
+    "Unità": "M",
+    "Formato": "#####.#"
+  },
+  {
+    "Codice": "B10197",
+    "Descrizione": "ALTEZZA ANEMOMETRO",
+    "Unità": "M",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B11001",
+    "Descrizione": "LA DIREZIONE DEL VENTO",
+    "Unità": "GRADO VERO",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B11002",
+    "Descrizione": "VELOCITÀ DEL VENTO",
+    "Unità": "SM",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B11003",
+    "Descrizione": "COMPONENTE A U",
+    "Unità": "SM",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B11004",
+    "Descrizione": "COMPONENTE V",
+    "Unità": "SM",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B11005",
+    "Descrizione": "COMPONENTE W",
+    "Unità": "PA/S",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B11006",
+    "Descrizione": "COMPONENTE W",
+    "Unità": "SM",
+    "Formato": "##.##"
+  },
+  {
+    "Codice": "B11016",
+    "Descrizione": "DIREZIONE DEL VENTO ESTREMO IN SENSO ANTIORARIO DI UN VENTO VARIABILE",
+    "Unità": "GRADO VERO",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B11017",
+    "Descrizione": "DIREZIONE DEL VENTO ESTREMO IN SENSO ORARIO DI UN VENTO VARIABILE",
+    "Unità": "GRADO VERO",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B11031",
+    "Descrizione": "GRADO DI TURBOLENZA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B11036",
+    "Descrizione": "VELOCITÀ MASSIMA EQUIVALENTE DELLA RAFFICA VERTICALE DERIVATA",
+    "Unità": "SM",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B11037",
+    "Descrizione": "INDICE DI TURBOLENZA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B11039",
+    "Descrizione": "TEMPO ESTESO DI VERIFICA DEL TASSO DI DISSIPAZIONE DEL PICCO EDDY",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B11041",
+    "Descrizione": "VELOCITÀ MASSIMA DELLA RAFFICA DI VENTO",
+    "Unità": "SM",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B11043",
+    "Descrizione": "DIREZIONE MASSIMA DELLA RAFFICA DI VENTO",
+    "Unità": "GRADO VERO",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B11050",
+    "Descrizione": "DEVIAZIONE STANDARD DELLA VELOCITÀ DEL VENTO ORIZZONTALE",
+    "Unità": "SM",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B11061",
+    "Descrizione": "VENTO SHEAR ASSOLUTO NELLO STRATO DI 1 KM SOTTO",
+    "Unità": "SM",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B11062",
+    "Descrizione": "VENTO SHEAR ASSOLUTO NELLO STRATO DI 1 KM SOPRA",
+    "Unità": "SM",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B11075",
+    "Descrizione": "INTENSITÀ MEDIA DI TURBOLENZA (TASSO DI DISSIPAZIONE EDDY)",
+    "Unità": "M**(2/3)/S",
+    "Formato": "#.##"
+  },
+  {
+    "Codice": "B11076",
+    "Descrizione": "INTENSITÀ DI PICCO TURBOLENZA (TASSO DI DISSIPAZIONE EDDY)",
+    "Unità": "M**(2/3)/S",
+    "Formato": "#.##"
+  },
+  {
+    "Codice": "B11077",
+    "Descrizione": "INTERVALLO DI REPORT O TEMPO MEDIO PER IL TASSO DI DISSIPAZIONE EDDY",
+    "Unità": "S",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B11192",
+    "Descrizione": "Seguimento del terreno nella componente W",
+    "Unità": "SM",
+    "Formato": "##.##"
+  },
+  {
+    "Codice": "B11193",
+    "Descrizione": "Classe di stabilità",
+    "Unità": "Numerico",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B11194",
+    "Descrizione": "Velocità di attrito (calma)",
+    "Unità": "SM",
+    "Formato": "##.###"
+  },
+  {
+    "Codice": "B11195",
+    "Descrizione": "Altezza di miscelazione (calmet)",
+    "Unità": "M",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B11196",
+    "Descrizione": "Lunghezza Obukov (calmet)",
+    "Unità": "M",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B11197",
+    "Descrizione": "Scala della velocità convettiva (calmet)",
+    "Unità": "SM",
+    "Formato": "##.###"
+  },
+  {
+    "Codice": "B11198",
+    "Descrizione": "SQRT(2*TKE)",
+    "Unità": "SM",
+    "Formato": "###.####"
+  },
+  {
+    "Codice": "B11199",
+    "Descrizione": "Ruvidezza della superficie",
+    "Unità": "M",
+    "Formato": "##.###"
+  },
+  {
+    "Codice": "B11200",
+    "Descrizione": "Componente U del flusso di quantità di moto",
+    "Unità": "N/M**2",
+    "Formato": "###.####"
+  },
+  {
+    "Codice": "B11201",
+    "Descrizione": "Componente V del flusso di quantità di moto",
+    "Unità": "N/M**2",
+    "Formato": "###.####"
+  },
+  {
+    "Codice": "B11202",
+    "Descrizione": "Velocità di attrito (diagramma)",
+    "Unità": "SM",
+    "Formato": "##.###"
+  },
+  {
+    "Codice": "B11203",
+    "Descrizione": "Altezza di miscelazione (diagramma)",
+    "Unità": "M",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B11204",
+    "Descrizione": "Lunghezza Obukov (diagramma)",
+    "Unità": "M",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B11205",
+    "Descrizione": "Scala della velocità convettiva (diagramma)",
+    "Unità": "SM",
+    "Formato": "##.###"
+  },
+  {
+    "Codice": "B11206",
+    "Descrizione": "Velocità di attrito (COSMO)",
+    "Unità": "SM",
+    "Formato": "##.###"
+  },
+  {
+    "Codice": "B11207",
+    "Descrizione": "Lunghezza Obukov (COSMO)",
+    "Unità": "M",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B11208",
+    "Descrizione": "Distanza percorsa dal vento medio orario",
+    "Unità": "M",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B11209",
+    "Descrizione": "Velocità persistente delle raffiche di vento",
+    "Unità": "SM",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B11210",
+    "Descrizione": "Direzione massima persistente delle raffiche di vento",
+    "Unità": "GRADO VERO",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B12001",
+    "Descrizione": "TEMPERATURA/TEMPERATURA DELL'ARIA",
+    "Unità": "K",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B12003",
+    "Descrizione": "TEMPERATURA DEL PUNTO DI RUGIADA",
+    "Unità": "K",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B12030",
+    "Descrizione": "TEMPERATURA DEL SUOLO",
+    "Unità": "K",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B12049",
+    "Descrizione": "Variazione della temperatura nel periodo specificato",
+    "Unità": "K",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B12063",
+    "Descrizione": "TEMPERATURA DI LUMINOSITÀ",
+    "Unità": "K",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B12101",
+    "Descrizione": "TEMPERATURA/TEMPERATURA A BULBO SECCO",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B12102",
+    "Descrizione": "TEMPERATURA DI BULBO UMIDO",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B12103",
+    "Descrizione": "TEMPERATURA DEL PUNTO DI RUGIADA",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B12107",
+    "Descrizione": "TEMPERATURA VIRTUALE",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B12121",
+    "Descrizione": "TEMPERATURA MINIMA DEL TERRENO",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B12131",
+    "Descrizione": "TEMPERATURA DELLA NEVE",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B12161",
+    "Descrizione": "TEMPERATURA DELLA PELLE",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B12192",
+    "Descrizione": "TEMPERATURA POTENZIALE",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B12193",
+    "Descrizione": "TEMPERATURA POTENZIALE PSEUDO-EQUIVALENTE",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B12194",
+    "Descrizione": "Densità dell'aria",
+    "Unità": "KG/M**3",
+    "Formato": "#.######"
+  },
+  {
+    "Codice": "B13001",
+    "Descrizione": "UMIDITÀ SPECIFICA",
+    "Unità": "KG/KG",
+    "Formato": ".#####"
+  },
+  {
+    "Codice": "B13002",
+    "Descrizione": "RAPPORTO DI MISCELAZIONE",
+    "Unità": "KG/KG",
+    "Formato": ".#####"
+  },
+  {
+    "Codice": "B13003",
+    "Descrizione": "UMIDITÀ RELATIVA",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B13011",
+    "Descrizione": "PRECIPITAZIONI TOTALI / TOTALE EQUIVALENTE D'ACQUA",
+    "Unità": "KG/M**2",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B13012",
+    "Descrizione": "PROFONDITÀ DI NEVE FRESCA",
+    "Unità": "M",
+    "Formato": "##.##"
+  },
+  {
+    "Codice": "B13013",
+    "Descrizione": "ALTEZZA TOTALE DELLA NEVE",
+    "Unità": "M",
+    "Formato": "####.###"
+  },
+  {
+    "Codice": "B13031",
+    "Descrizione": "EVAPOTRASPIRAZIONE",
+    "Unità": "KG/M**2",
+    "Formato": "##.#"
+  },
+  {
+    "Codice": "B13033",
+    "Descrizione": "EVAPORAZIONE/EVAPOTRANSPIRAZIONE",
+    "Unità": "KG/M**2",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B13080",
+    "Descrizione": "PH ACQUA",
+    "Unità": "pH",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B13081",
+    "Descrizione": "CONDUTTIVITÀ DELL'ACQUA",
+    "Unità": "S/M",
+    "Formato": "##.###"
+  },
+  {
+    "Codice": "B13082",
+    "Descrizione": "TEMPERATURA DELL'ACQUA",
+    "Unità": "K",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B13083",
+    "Descrizione": "OSSIGENO DISSOLTO",
+    "Unità": "KG/M**3",
+    "Formato": ".######"
+  },
+  {
+    "Codice": "B13192",
+    "Descrizione": "Contenuto di acqua liquida delle nuvole",
+    "Unità": "KG/KG",
+    "Formato": "#.########"
+  },
+  {
+    "Codice": "B13193",
+    "Descrizione": "Contenuto di ghiaccio nelle nuvole",
+    "Unità": "KG/KG",
+    "Formato": "#.########"
+  },
+  {
+    "Codice": "B13194",
+    "Descrizione": "Profondità della falda freatica",
+    "Unità": "M",
+    "Formato": "###.###"
+  },
+  {
+    "Codice": "B13195",
+    "Descrizione": "Precipitazione dell'acqua liquida",
+    "Unità": "KG/KG",
+    "Formato": "#.########"
+  },
+  {
+    "Codice": "B13196",
+    "Descrizione": "Ghiaccio in precipitazione",
+    "Unità": "KG/KG",
+    "Formato": "#.########"
+  },
+  {
+    "Codice": "B13197",
+    "Descrizione": "Totale acqua+ghiaccio precipitante",
+    "Unità": "KG/KG",
+    "Formato": "#.########"
+  },
+  {
+    "Codice": "B13198",
+    "Descrizione": "Acqua liquida totale (nube+precipitazione)",
+    "Unità": "KG/KG",
+    "Formato": "#.########"
+  },
+  {
+    "Codice": "B13199",
+    "Descrizione": "Ghiaccio totale (nuvole+precipitazioni)",
+    "Unità": "KG/KG",
+    "Formato": "#.########"
+  },
+  {
+    "Codice": "B13200",
+    "Descrizione": "Precipitazione liquida su scala di griglia",
+    "Unità": "KG/M**2",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B13201",
+    "Descrizione": "Nevicate su scala griglia",
+    "Unità": "KG/M**2",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B13202",
+    "Descrizione": "Precipitazione liquida convettiva",
+    "Unità": "KG/M**2",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B13203",
+    "Descrizione": "Nevicate convettive",
+    "Unità": "KG/M**2",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B13204",
+    "Descrizione": "Precipitazioni convettive totali (liquido + neve)",
+    "Unità": "KG/M**2",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B13205",
+    "Descrizione": "Nevicate (scala della griglia + convettiva)",
+    "Unità": "KG/M**2",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B13206",
+    "Descrizione": "Contenuto idrico del suolo",
+    "Unità": "KG/M**2",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B13210",
+    "Descrizione": "Penetrazione della sonda nella neve",
+    "Unità": "M",
+    "Formato": "#.##"
+  },
+  {
+    "Codice": "B13211",
+    "Descrizione": "Volume del bacino",
+    "Unità": "M**3",
+    "Formato": "12 cifre"
+  },
+  {
+    "Codice": "B13212",
+    "Descrizione": "Durata della bagnatura fogliare",
+    "Unità": "S",
+    "Formato": "########0"
+  },
+  {
+    "Codice": "B13215",
+    "Descrizione": "Livello del fiume",
+    "Unità": "M",
+    "Formato": "####.##"
+  },
+  {
+    "Codice": "B13226",
+    "Descrizione": "Scarico del fiume",
+    "Unità": "M**3/S",
+    "Formato": "#####.##"
+  },
+  {
+    "Codice": "B13227",
+    "Descrizione": "Contenuto idrico volumetrico del suolo",
+    "Unità": "%",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B13228",
+    "Descrizione": "Livello piezometrico",
+    "Unità": "M",
+    "Formato": "###.###"
+  },
+  {
+    "Codice": "B13229",
+    "Descrizione": "Densità della neve",
+    "Unità": "KG/M**3",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B13230",
+    "Descrizione": "Energia potenziale disponibile convettiva (CAPE)",
+    "Unità": "J/KG",
+    "Formato": "#####.#"
+  },
+  {
+    "Codice": "B13231",
+    "Descrizione": "Ossigeno disciolto sat",
+    "Unità": "%",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B13232",
+    "Descrizione": "Evapotraspirazione di riferimento secondo Penman Monteith",
+    "Unità": "KG/M**2",
+    "Formato": "##.#"
+  },
+  {
+    "Codice": "B13233",
+    "Descrizione": "Evapotraspirazione di riferimento secondo Hargreav.-Samani",
+    "Unità": "KG/M**2",
+    "Formato": "##.#"
+  },
+  {
+    "Codice": "B13234",
+    "Descrizione": "Indice sollevato",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B14002",
+    "Descrizione": "Radiazione a onda lunga, integrata nel periodo specificato",
+    "Unità": "J/M**2",
+    "Formato": "######000"
+  },
+  {
+    "Codice": "B14004",
+    "Descrizione": "Radiazione a onde corte, integrata nel periodo specificato",
+    "Unità": "J/M**2",
+    "Formato": "######000"
+  },
+  {
+    "Codice": "B14016",
+    "Descrizione": "RADIAZIONE NETTA",
+    "Unità": "J/M**2",
+    "Formato": "#####0000"
+  },
+  {
+    "Codice": "B14017",
+    "Descrizione": "RADIAZIONE ISTANTANEA A ONDE LUNGHE (in entrata)",
+    "Unità": "W/M**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14018",
+    "Descrizione": "RADIAZIONE ISTANTANEA A ONDE CORTE (in entrata)",
+    "Unità": "W/M**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14019",
+    "Descrizione": "ALBEDO SUPERFICIALE",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B14021",
+    "Descrizione": "RADIAZIONE SOLARE GLOBALE, INTEGRATA NEL PERIODO SPECIFICATO",
+    "Unità": "J/M**2",
+    "Formato": "#####0000"
+  },
+  {
+    "Codice": "B14028",
+    "Descrizione": "Radiazione solare globale (alta precisione), integrata nel periodo sJ/M**2",
+    "Unità": "J/M**2",
+    "Formato": "#######00"
+  },
+  {
+    "Codice": "B14029",
+    "Descrizione": "Radiazione solare diffusa (alta precisione), integrata nel periodo",
+    "Unità": "J/M**2",
+    "Formato": "#######00"
+  },
+  {
+    "Codice": "B14030",
+    "Descrizione": "Radiazione solare diretta (alta precisione), integrata nel periodo sJ/M**2",
+    "Unità": "J/M**2",
+    "Formato": "#######00"
+  },
+  {
+    "Codice": "B14031",
+    "Descrizione": "SOLE TOTALE",
+    "Unità": "MINUTO",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14192",
+    "Descrizione": "Flusso di calore sensibile",
+    "Unità": "W/m**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14193",
+    "Descrizione": "Flusso di calore latente",
+    "Unità": "W/m**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14194",
+    "Descrizione": "Flusso di radiazione solare diretta",
+    "Unità": "W/M**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14195",
+    "Descrizione": "Flusso diffuso di radiazione solare",
+    "Unità": "W/M**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14196",
+    "Descrizione": "FLUSSO NETTO DI RADIAZIONE A ONDE LUNGHE",
+    "Unità": "W/M**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14197",
+    "Descrizione": "FLUSSO NETTO DI RADIAZIONE A ONDE CORTE",
+    "Unità": "W/M**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14198",
+    "Descrizione": "Flusso di radiazione globale (verso il basso)",
+    "Unità": "W/M**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14199",
+    "Descrizione": "Flusso di radiazione visibile (verso l'alto)",
+    "Unità": "W/M**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14200",
+    "Descrizione": "Flusso di radiazione infrarossa (verso il basso)",
+    "Unità": "W/M**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B14201",
+    "Descrizione": "Flusso di radiazione infrarossa (verso l'alto)",
+    "Unità": "W/M**2",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B15192",
+    "Descrizione": "NESSUNA concentrazione",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15193",
+    "Descrizione": "Concentrazione di NO2",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15194",
+    "Descrizione": "Concentrazione di O3",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15195",
+    "Descrizione": "Concentrazione di PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15196",
+    "Descrizione": "Concentrazione di CO",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15197",
+    "Descrizione": "Concentrazione di SO2",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15198",
+    "Descrizione": "Concentrazione PM2,5",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15199",
+    "Descrizione": "NO Concentrazione",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15200",
+    "Descrizione": "Concentrazione dell'HCNM",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15201",
+    "Descrizione": "Concentrazione ALDE",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15202",
+    "Descrizione": "Concentrazione PM5 (aerosol totale < 5 ug)",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15203",
+    "Descrizione": "Concentrazione PM1 (aerosol totale < 1,25 ug)",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15204",
+    "Descrizione": "Concentrazione PM06 (aerosol tot. < 0,6 ug)",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15205",
+    "Descrizione": "Concentrazione PM03 (aerosol tot. < 0,3 ug)",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15206",
+    "Descrizione": "PM015 Concentrazione (tot. aerosol < 0,15 ug)",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15207",
+    "Descrizione": "PM008 Concentrazione (tot. aerosol < 0,08 ug)",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15208",
+    "Descrizione": "Concentrazione del particolato primario in PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15209",
+    "Descrizione": "Concentrazione di solfato nel PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15210",
+    "Descrizione": "Concentrazione di nitrati in PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15211",
+    "Descrizione": "Concentrazione di ammonio in PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15212",
+    "Descrizione": "Concentrazione di nerofumo nel PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15213",
+    "Descrizione": "Concentrazione di carbonio organico nel PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15214",
+    "Descrizione": "Concentrazione di polveri in PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15215",
+    "Descrizione": "Concentrazione di antropo. A1D nel PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15216",
+    "Descrizione": "Concentrazione di antropo. BmP nel PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15217",
+    "Descrizione": "Concentrazione di A1D biogenico nel PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15218",
+    "Descrizione": "Concentrazione di BmP biogenico nel PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15219",
+    "Descrizione": "Concentrazione dell'acqua in PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15220",
+    "Descrizione": "Concentrazione di sale marino in PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15221",
+    "Descrizione": "Concentrazione dell'aerosol organico secondario in PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15222",
+    "Descrizione": "Concentrazione totale dell'aerosol primario in PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15223",
+    "Descrizione": "Concentrazione totale dell'aerosol secondario in PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15224",
+    "Descrizione": "Incertezza nella stima di O3 (Pesco)",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15225",
+    "Descrizione": "Incertezza nella stima del PM10 (Pesco)",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15226",
+    "Descrizione": "Incertezza nella stima di NO2 (Pesco)",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15227",
+    "Descrizione": "Incertezza nella stima del PM2.5 (Pesco)",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15228",
+    "Descrizione": "Concentrazione di NH3",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15229",
+    "Descrizione": "Concentrazione della parte primaria. materia in aerosol",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15230",
+    "Descrizione": "Concentrazione di solfato nell'aerosol",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15231",
+    "Descrizione": "Concentrazione di nitrato nell'aerosol",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15232",
+    "Descrizione": "Concentrazione di ammonio nell'aerosol",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15233",
+    "Descrizione": "Concentrazione di antropo. sez. org. nell'aerosol",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15234",
+    "Descrizione": "Concentrazione di biogenici sec. org. nell'aerosol",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15235",
+    "Descrizione": "Concentrazione di ISOPA1 nel PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15236",
+    "Descrizione": "Concentrazione C6H6",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15237",
+    "Descrizione": "Concentrazione di aerosol di origine antropica nel PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15238",
+    "Descrizione": "Concentrazione di aerosol biogenico in PM10",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15239",
+    "Descrizione": "Concentrazione di aerosol di origine antropica nel PM2.5",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15240",
+    "Descrizione": "Concentrazione di aerosol biogenico in PM2.5",
+    "Unità": "KG/M**3",
+    "Formato": ".##########"
+  },
+  {
+    "Codice": "B15241",
+    "Descrizione": "Spessore ottico dell'aerosol",
+    "Unità": "Numerico",
+    "Formato": "#.####"
+  },
+  {
+    "Codice": "B15242",
+    "Descrizione": "Concentrazione di CO2",
+    "Unità": "KG/M**3",
+    "Formato": ".######"
+  },
+  {
+    "Codice": "B20001",
+    "Descrizione": "VISIBILITÀ ORIZZONTALE",
+    "Unità": "M",
+    "Formato": "####0"
+  },
+  {
+    "Codice": "B20003",
+    "Descrizione": "METEO ATTUALE (VEDI NOTA 1)",
+    "Unità": "TABELLA CODICI",
+    "Formato": "3 caratteri"
+  },
+  {
+    "Codice": "B20004",
+    "Descrizione": "METEO PASSATO (1) (VEDI NOTA 2)",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20005",
+    "Descrizione": "METEO PASSATO (2) (VEDI NOTA 2)",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20009",
+    "Descrizione": "INDICATORE METEO GENERALE (TAF/METAR)",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20010",
+    "Descrizione": "COPERTURA NUVOLOSA (TOTALE)",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B20011",
+    "Descrizione": "IMPORTO NUVOLA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20012",
+    "Descrizione": "TIPO DI NUVOLA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20013",
+    "Descrizione": "ALTEZZA DELLA BASE DELLA NUVOLA",
+    "Unità": "M",
+    "Formato": "6 cifre"
+  },
+  {
+    "Codice": "B20017",
+    "Descrizione": "DESCRIZIONE DELLA NUVOLA TOP",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20019",
+    "Descrizione": "METEO PRESENTE O PREVISTO SIGNIFICATIVO",
+    "Unità": "CITTIA5",
+    "Formato": "9 cifre"
+  },
+  {
+    "Codice": "B20021",
+    "Descrizione": "TIPO DI PRECIPITAZIONE",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "10 cifre"
+  },
+  {
+    "Codice": "B20031",
+    "Descrizione": "DEPOSITO DI GHIACCIO (SPESSORE)",
+    "Unità": "M",
+    "Formato": "#.##"
+  },
+  {
+    "Codice": "B20032",
+    "Descrizione": "TASSO DI ACCREZIONE DEL GHIACCIO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B20033",
+    "Descrizione": "CAUSA DELL'ACREZIONE DEL GHIACCIO",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B20034",
+    "Descrizione": "CONCENTRAZIONE DEL GHIACCIO MARINO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20035",
+    "Descrizione": "QUANTITÀ E TIPO DI GHIACCIO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20036",
+    "Descrizione": "SITUAZIONE GHIACCIO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20037",
+    "Descrizione": "SVILUPPO DEL GHIACCIO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20038",
+    "Descrizione": "RIPORTO DEL BORDO GHIACCIO (VEDI NOTA 3)",
+    "Unità": "GRADO VERO",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B20042",
+    "Descrizione": "GHIACCIO DELLA CELLULA PRESENTE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B20043",
+    "Descrizione": "PICCO CONTENUTO DI ACQUA LIQUIDA",
+    "Unità": "KG/M**3",
+    "Formato": ".####"
+  },
+  {
+    "Codice": "B20044",
+    "Descrizione": "CONTENUTO MEDIO DI ACQUA LIQUIDA",
+    "Unità": "KG/M**3",
+    "Formato": ".####"
+  },
+  {
+    "Codice": "B20045",
+    "Descrizione": "CONDIZIONI DI GOCCE GRANDI SUPERRAFFREDDATE (SLD).",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B20062",
+    "Descrizione": "STATO DEL TERRENO (CON O SENZA NEVE)",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20192",
+    "Descrizione": "Presenza di pioggia > 1mm",
+    "Unità": "BOOLEANO",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B20193",
+    "Descrizione": "Tipo di nuvola (METAR)",
+    "Unità": "CITTIA5",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B20194",
+    "Descrizione": "Presenza di doccia",
+    "Unità": "BOOLEANO",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B20195",
+    "Descrizione": "Presenza di grandine",
+    "Unità": "BOOLEANO",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B20196",
+    "Descrizione": "Presenza di temporale",
+    "Unità": "BOOLEANO",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B20197",
+    "Descrizione": "Presenza di neve",
+    "Unità": "BOOLEANO",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B20198",
+    "Descrizione": "Presenza di gelo",
+    "Unità": "BOOLEANO",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B20199",
+    "Descrizione": "Presenza di rugiada",
+    "Unità": "BOOLEANO",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B20200",
+    "Descrizione": "Presenza di nebbia",
+    "Unità": "BOOLEANO",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B20201",
+    "Descrizione": "Presenza di getto d'acqua",
+    "Unità": "BOOLEANO",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B20202",
+    "Descrizione": "Stato del terreno con neve",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B20203",
+    "Descrizione": "Impatto meteorologico",
+    "Unità": "TABELLA CODICI",
+    "Formato": "3 caratteri"
+  },
+  {
+    "Codice": "B22001",
+    "Descrizione": "DIREZIONE DELLE ONDE",
+    "Unità": "GRADO VERO",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B22002",
+    "Descrizione": "DIREZIONE DELLE ONDE DEL VENTO",
+    "Unità": "GRADO VERO",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B22003",
+    "Descrizione": "DIREZIONE DELLE ONDE GONFIANTI",
+    "Unità": "GRADO VERO",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B22004",
+    "Descrizione": "DIREZIONE DELLA CORRENTE",
+    "Unità": "GRADO VERO",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B22011",
+    "Descrizione": "PERIODO DELLE ONDE",
+    "Unità": "S",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B22012",
+    "Descrizione": "PERIODO DELLE ONDE DEL VENTO",
+    "Unità": "S",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B22013",
+    "Descrizione": "PERIODO DI ONDE GONFIANTI",
+    "Unità": "S",
+    "Formato": "2 cifre"
+  },
+  {
+    "Codice": "B22021",
+    "Descrizione": "ALTEZZA DELLE ONDE",
+    "Unità": "M",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B22022",
+    "Descrizione": "ALTEZZA DELLE ONDE DEL VENTO",
+    "Unità": "M",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B22023",
+    "Descrizione": "ALTEZZA DELLE ONDE GONFIABILI",
+    "Unità": "M",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B22031",
+    "Descrizione": "VELOCITÀ DELLA CORRENTE",
+    "Unità": "SM",
+    "Formato": "##.##"
+  },
+  {
+    "Codice": "B22032",
+    "Descrizione": "VELOCITÀ DELLA CORRENTE SUPERFICIALE DEL MARE",
+    "Unità": "SM",
+    "Formato": "##.##"
+  },
+  {
+    "Codice": "B22037",
+    "Descrizione": "Elevazione delle maree rispetto al dato territoriale nazionale",
+    "Unità": "M",
+    "Formato": "##.###"
+  },
+  {
+    "Codice": "B22038",
+    "Descrizione": "Elevazione della marea rispetto al datum della carta locale",
+    "Unità": "M",
+    "Formato": "##.###"
+  },
+  {
+    "Codice": "B22043",
+    "Descrizione": "TEMPERATURA DEL MARE/ACQUA",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B22049",
+    "Descrizione": "TEMPERATURA DELLA SUPERFICIE DEL MARE",
+    "Unità": "K",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B22062",
+    "Descrizione": "SALINITÀ",
+    "Unità": "PARTE PER MILLE",
+    "Formato": "###.##"
+  },
+  {
+    "Codice": "B22063",
+    "Descrizione": "PROFONDITÀ TOTALE DELL'ACQUA",
+    "Unità": "M",
+    "Formato": "5 cifre"
+  },
+  {
+    "Codice": "B22066",
+    "Descrizione": "CONDUTTIVITÀ DELL'ACQUA",
+    "Unità": "S M-1",
+    "Formato": "##.######"
+  },
+  {
+    "Codice": "B22070",
+    "Descrizione": "ALTEZZA D'ONDA SIGNIFICATIVA",
+    "Unità": "M",
+    "Formato": "##.##"
+  },
+  {
+    "Codice": "B22071",
+    "Descrizione": "PERIODO DELL'ONDA DI PICCO SPETTRALE",
+    "Unità": "S",
+    "Formato": "##.#"
+  },
+  {
+    "Codice": "B22073",
+    "Descrizione": "ALTEZZA MASSIMA DELL'ONDA",
+    "Unità": "M",
+    "Formato": "##.##"
+  },
+  {
+    "Codice": "B22074",
+    "Descrizione": "PERIODO D'ONDA MEDIO",
+    "Unità": "S",
+    "Formato": "##.#"
+  },
+  {
+    "Codice": "B22192",
+    "Descrizione": "Componente X corrente",
+    "Unità": "SM",
+    "Formato": "##.##"
+  },
+  {
+    "Codice": "B22193",
+    "Descrizione": "Componente Y attuale",
+    "Unità": "SM",
+    "Formato": "##.##"
+  },
+  {
+    "Codice": "B22194",
+    "Descrizione": "Concentrazione clorofilla a",
+    "Unità": "microg/l",
+    "Formato": "####.##"
+  },
+  {
+    "Codice": "B22195",
+    "Descrizione": "Profondità sotto la superficie del mare",
+    "Unità": "M",
+    "Formato": "####.###"
+  },
+  {
+    "Codice": "B23192",
+    "Descrizione": "Deposizione secca di H2SO4",
+    "Unità": "MOL/M**2",
+    "Formato": "##.#####"
+  },
+  {
+    "Codice": "B23193",
+    "Descrizione": "Deposizione umida di H2SO4",
+    "Unità": "MOL/M**2",
+    "Formato": "##.#####"
+  },
+  {
+    "Codice": "B23194",
+    "Descrizione": "Deposizione secca di NH4",
+    "Unità": "MOL/M**2",
+    "Formato": "##.#####"
+  },
+  {
+    "Codice": "B23195",
+    "Descrizione": "Deposizione umida di NH4",
+    "Unità": "MOL/M**2",
+    "Formato": "##.#####"
+  },
+  {
+    "Codice": "B23196",
+    "Descrizione": "Deposizione secca di HNO3",
+    "Unità": "MOL/M**2",
+    "Formato": "##.#####"
+  },
+  {
+    "Codice": "B23197",
+    "Descrizione": "Deposizione umida di HNO3",
+    "Unità": "MOL/M**2",
+    "Formato": "##.#####"
+  },
+  {
+    "Codice": "B23198",
+    "Descrizione": "Trasporto solido via fiume",
+    "Unità": "KG/S",
+    "Formato": "######.##"
+  },
+  {
+    "Codice": "B25025",
+    "Descrizione": "Voltaggio batteria",
+    "Unità": "V",
+    "Formato": "##.#"
+  },
+  {
+    "Codice": "B25076",
+    "Descrizione": "LOG-10 DI (NUMERO D'ONDA CENTRALE TEMP-RAD) PER ATOV",
+    "Unità": "LOGOM-1",
+    "Formato": "##.########"
+  },
+  {
+    "Codice": "B25192",
+    "Descrizione": "Carica batterie",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B25193",
+    "Descrizione": "Corrente della batteria",
+    "Unità": "UN",
+    "Formato": "##.###"
+  },
+  {
+    "Codice": "B29192",
+    "Descrizione": "Frazione fondiaria",
+    "Unità": "%",
+    "Formato": "###.#"
+  },
+  {
+    "Codice": "B31000",
+    "Descrizione": "FATTORE DI REPLICAZIONE DEL DESCRITTORE RITARDATO BREVE",
+    "Unità": "Numerico",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B31001",
+    "Descrizione": "FATTORE DI REPLICAZIONE DEL DESCRITTORE RITARDATO",
+    "Unità": "Numerico",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B31002",
+    "Descrizione": "FATTORE DI REPLICAZIONE DEL DESCRITTORE RITARDATO ESTESA",
+    "Unità": "Numerico",
+    "Formato": "5 cifre"
+  },
+  {
+    "Codice": "B31011",
+    "Descrizione": "DESCRITTORE RITARDATO E FATTORE DI RIPETIZIONE DEI DATI",
+    "Unità": "Numerico",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B31012",
+    "Descrizione": "DESCRITTORE RITARDO ESTESO E FATTORE DI RIPETIZIONE DEI DATI",
+    "Unità": "Numerico",
+    "Formato": "5 cifre"
+  },
+  {
+    "Codice": "B31021",
+    "Descrizione": "SIGNIFICATO DEL CAMPO ASSOCIATO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B31031",
+    "Descrizione": "INDICATORE DATI PRESENTI",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "1 cifra"
+  },
+  {
+    "Codice": "B33002",
+    "Descrizione": "INFORMAZIONI DI QUALITÀ",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33003",
+    "Descrizione": "INFORMAZIONI DI QUALITÀ",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33005",
+    "Descrizione": "INFORMAZIONI SULLA QUALITÀ (DATI AWS)",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "10 cifre"
+  },
+  {
+    "Codice": "B33006",
+    "Descrizione": "INFORMAZIONI SULLO STATO DELLA MISURAZIONE INTERNA (AWS)",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33007",
+    "Descrizione": "FIDUCIA PER CENTO",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B33015",
+    "Descrizione": "INDICATORE DI CONTROLLO DELLA QUALITÀ DEI DATI",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B33020",
+    "Descrizione": "INDICAZIONE DEL CONTROLLO DI QUALITÀ DEL SEGUENTE VALORE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33021",
+    "Descrizione": "QUALITÀ DEL VALORE SEGUENTE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33022",
+    "Descrizione": "QUALITÀ DELLA TRASMISSIONE SATELLITARE DELLA BOA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33023",
+    "Descrizione": "QUALITÀ DELLA POSIZIONE DELLA BOA",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33024",
+    "Descrizione": "MARCHIO DI QUALITÀ ELEVAZIONE STAZIONE (PER STAZIONI MOBILI)",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B33025",
+    "Descrizione": "VALORI INTERPOLATI DI ACARS",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33026",
+    "Descrizione": "QUALITÀ DELL'UMIDITÀ",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B33027",
+    "Descrizione": "CLASSE DI QUALITÀ DELLA LOCAZIONE (RANGE DI RAGGIO CON CONFIDENZA DEL 66%)",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33030",
+    "Descrizione": "FLAG DI STATO DELLA LINEA DI SCANSIONE PER ATOV",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "8 cifre"
+  },
+  {
+    "Codice": "B33031",
+    "Descrizione": "BANDIERE DI QUALITÀ LINEA SCAN PER ATOV",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "8 cifre"
+  },
+  {
+    "Codice": "B33032",
+    "Descrizione": "BANDIERE DI QUALITÀ DEL CANALE PER ATOV",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "8 cifre"
+  },
+  {
+    "Codice": "B33033",
+    "Descrizione": "CAMPO VISIVO BANDIERE DI QUALITÀ PER ATOV",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "8 cifre"
+  },
+  {
+    "Codice": "B33035",
+    "Descrizione": "CONTROLLO QUALITÀ MANUALE/AUTOMATICO",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B33036",
+    "Descrizione": "SOGLIA DI CONFIDENZA NOMINALE",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B33037",
+    "Descrizione": "ERRORE DI CORRELAZIONE DEL VENTO",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B33038",
+    "Descrizione": "BANDIERE DI QUALITÀ PER DATI GNSS A TERRA",
+    "Unità": "TABELLA BANDIERA",
+    "Formato": "4 cifre"
+  },
+  {
+    "Codice": "B33040",
+    "Descrizione": "INTERVALLO DI CONFIDENZA",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B33041",
+    "Descrizione": "ATTRIBUTO DEL VALORE SEGUENTE",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33050",
+    "Descrizione": "BANDIERA GLOBALE DI QUALITÀ GTSPP",
+    "Unità": "TABELLA CODICI",
+    "Formato": "2 caratteri"
+  },
+  {
+    "Codice": "B33192",
+    "Descrizione": "Verifica climatologica e di consistenza",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B33193",
+    "Descrizione": "Coerenza temporale",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B33194",
+    "Descrizione": "Consistenza spaziale",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B33195",
+    "Descrizione": "ID variabile MeteoDB",
+    "Unità": "Numerico",
+    "Formato": "8 cifre"
+  },
+  {
+    "Codice": "B33196",
+    "Descrizione": "I dati sono stati invalidati",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33197",
+    "Descrizione": "Sostituzione manuale in sostituzione",
+    "Unità": "TABELLA CODICI",
+    "Formato": "1 carattere"
+  },
+  {
+    "Codice": "B33198",
+    "Descrizione": "Incremento dell'osservazione",
+    "Unità": "Numerico",
+    "Formato": "######.####"
+  },
+  {
+    "Codice": "B33201",
+    "Descrizione": "Coefficiente di Kalman, vettore di stato (sv) x1",
+    "Unità": "Numerico",
+    "Formato": "######.####"
+  },
+  {
+    "Codice": "B33202",
+    "Descrizione": "Coefficiente di Kalman, vettore di stato (sv) x2",
+    "Unità": "Numerico",
+    "Formato": "######.####"
+  },
+  {
+    "Codice": "B33203",
+    "Descrizione": "Coefficiente di Kalman, matrice di covarianza dell'errore sv(1,1)",
+    "Unità": "Numerico",
+    "Formato": "######.####"
+  },
+  {
+    "Codice": "B33204",
+    "Descrizione": "Coefficiente di Kalman, matrice di covarianza dell'errore sv(1,2)",
+    "Unità": "Numerico",
+    "Formato": "######.####"
+  },
+  {
+    "Codice": "B33205",
+    "Descrizione": "Coefficiente di Kalman, matrice di covarianza dell'errore sv(2,1)",
+    "Unità": "Numerico",
+    "Formato": "######.####"
+  },
+  {
+    "Codice": "B33206",
+    "Descrizione": "Coefficiente di Kalman, matrice di covarianza dell'errore sv(2,2)",
+    "Unità": "Numerico",
+    "Formato": "######.####"
+  },
+  {
+    "Codice": "B33207",
+    "Descrizione": "Contatore sequenziale di osservazione di Kalman",
+    "Unità": "Numerico",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B33208",
+    "Descrizione": "Contatore mancante dell'osservazione di Kalman",
+    "Unità": "Numerico",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B33209",
+    "Descrizione": "Indice di densità normalizzato",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B33210",
+    "Descrizione": "Dati nell'intervallo utilizzato per calcolare il valore",
+    "Unità": "%",
+    "Formato": "3 cifre"
+  },
+  {
+    "Codice": "B48001",
+    "Descrizione": "Graminacee_Graminacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48002",
+    "Descrizione": "Betulacee_Ontano nero",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48003",
+    "Descrizione": "Betulacee_Betulla",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48004",
+    "Descrizione": "Betulacee_Betulacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48005",
+    "Descrizione": "Composito_Ambrosia",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48006",
+    "Descrizione": "Composito_Artemisia",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48007",
+    "Descrizione": "Composite_Composito indistinto",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48008",
+    "Descrizione": "Corilacee_Nocciolo",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48009",
+    "Descrizione": "Corilacee_Carpino bianco -Carpino nero",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48010",
+    "Descrizione": "Corilacee_Corilacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48011",
+    "Descrizione": "Fagacee_Castagno",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48012",
+    "Descrizione": "Fagacee_Faggio",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48013",
+    "Descrizione": "Fagacee_Quercia",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48014",
+    "Descrizione": "Fagacee_Fagacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48015",
+    "Descrizione": "Oleacee_Olivo",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48016",
+    "Descrizione": "Oleacee_Frassino",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48017",
+    "Descrizione": "Oleacee_Oleacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48018",
+    "Descrizione": "Plantaginacee_Plantaginacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48019",
+    "Descrizione": "Urticacee_Urticacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48020",
+    "Descrizione": "Cupressacee - Taxacee indistinto_Cipresso comune",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48021",
+    "Descrizione": "Cupressacee - Taxacee indistinte_Cupressacee - Taxacee ind",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48022",
+    "Descrizione": "Chenopodiacee - Amarantacee Indistinto_Amaranto",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48023",
+    "Descrizione": "Chenopodiacee - Amarantacee Indistinte_Chenopodiacee - Ama",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48024",
+    "Descrizione": "Poligonacee_Poligonacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48025",
+    "Descrizione": "Euphorbiacee_Euforbiacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48026",
+    "Descrizione": "Mirtacee_Mirtacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48027",
+    "Descrizione": "Ulmacee_Bagolaro comune",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48028",
+    "Descrizione": "Ulmacee_Olmo campestre",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48029",
+    "Descrizione": "Ulmacee_Ulmacee indistinto",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48030",
+    "Descrizione": "Platanacee_Platanacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48031",
+    "Descrizione": "Aceraceae_Aceracee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48032",
+    "Descrizione": "Pinacee_Pinacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48033",
+    "Descrizione": "Salicacee_Salice comune",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48034",
+    "Descrizione": "Salicacee_Pioppo",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48035",
+    "Descrizione": "Salicacee_Salicacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48036",
+    "Descrizione": "Ciperacee_Ciperacee indistinto",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48037",
+    "Descrizione": "Juglandacee_Juglandacee indistinta",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48038",
+    "Descrizione": "Ippocastanacee_Ippocastanacee indistinto",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48039",
+    "Descrizione": "Spore fungine_Alternaria",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48040",
+    "Descrizione": "Spore fungine_Botrytis",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48041",
+    "Descrizione": "Spore fungine_Stemphylium",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48042",
+    "Descrizione": "Spore fungine_Cladosporium",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48043",
+    "Descrizione": "Spore fungine_Epicoccum",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48044",
+    "Descrizione": "Altri Pollini / Non Identificati_Altri pollini identificat",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48045",
+    "Descrizione": "Altri Pollini / Non Identificati_Pollini non identificati",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48046",
+    "Descrizione": "Altre Spore / Non identificati_Altre spore fungine",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48047",
+    "Descrizione": "Altre Spore / Non identificati_Spore fungine non identificate",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48048",
+    "Descrizione": "Graminacee_Graminacee indistinta 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48049",
+    "Descrizione": "Plantaginacee_Plantaginacee indistinta 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48050",
+    "Descrizione": "Urticacee_Urticacee indistinta 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48051",
+    "Descrizione": "Poligonacee_Poligonacee indistinte 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48052",
+    "Descrizione": "Euphorbiacee_Euforbiacee indistinta 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48053",
+    "Descrizione": "Mirtacee_Mirtacee indistinto 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48054",
+    "Descrizione": "Platanacee_Platanacee indistinto 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48055",
+    "Descrizione": "Aceraceae_Aceracee indistinta 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48056",
+    "Descrizione": "Pinacee_Pinacee indistinta 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48057",
+    "Descrizione": "Ciperacee_Ciperacee indistinto 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48058",
+    "Descrizione": "Juglandacee_Juglandacee indistinto 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48059",
+    "Descrizione": "Ippocastanacee_Ippocastanacee indistinto 1",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48060",
+    "Descrizione": "Oleacee_Ligustro",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48061",
+    "Descrizione": "Anacardiacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48062",
+    "Descrizione": "Apocinacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48063",
+    "Descrizione": "Araliacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48064",
+    "Descrizione": "Borginacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48065",
+    "Descrizione": "Brassicacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48066",
+    "Descrizione": "Cannabacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48067",
+    "Descrizione": "Caprifoliacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48068",
+    "Descrizione": "Cariofillacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48069",
+    "Descrizione": "Cornacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48070",
+    "Descrizione": "Elaegnacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48071",
+    "Descrizione": "Lauracee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48072",
+    "Descrizione": "Moracee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48073",
+    "Descrizione": "Ramnacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48074",
+    "Descrizione": "Rosacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48075",
+    "Descrizione": "Rubiacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48076",
+    "Descrizione": "Simaroubacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48077",
+    "Descrizione": "Ombrellifere",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48078",
+    "Descrizione": "Vitacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48079",
+    "Descrizione": "Corilacee_Carpino",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48080",
+    "Descrizione": "Corilacee_Ostria",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48081",
+    "Descrizione": "Moracee-Broussonetia",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48082",
+    "Descrizione": "Moracee – Morus",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48083",
+    "Descrizione": "Leguminoso",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48084",
+    "Descrizione": "Arecacee",
+    "Unità": "POLLINE/M**3",
+    "Formato": "#######.#"
+  },
+  {
+    "Codice": "B48128",
+    "Descrizione": "Conta Graminacee_Graminacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48129",
+    "Descrizione": "Conta Betulacee_Ontano nero",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48130",
+    "Descrizione": "Conta Betulacee_Betulla",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48131",
+    "Descrizione": "Conta Betulacee_Betulacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48132",
+    "Descrizione": "Conta Composite_Ambrosia",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48133",
+    "Descrizione": "Conta Composite_Artemisia",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48134",
+    "Descrizione": "Conta Composite_Composite indistinto",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48135",
+    "Descrizione": "Conta Corilacee_Nocciolo",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48136",
+    "Descrizione": "Conta Corilacee_Carpino bianco -Carpino nero",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48137",
+    "Descrizione": "Conta Corilacee_Corilacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48138",
+    "Descrizione": "Conta Fagacee_Castagno",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48139",
+    "Descrizione": "Conta Fagacee_Faggio",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48140",
+    "Descrizione": "Conta Fagacee_Quercia",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48141",
+    "Descrizione": "Conta Fagacee_Fagacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48142",
+    "Descrizione": "Conta Oleacee_Olivo",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48143",
+    "Descrizione": "Conta Oleacee_Frassino",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48144",
+    "Descrizione": "Conta Oleacee_Oleacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48145",
+    "Descrizione": "Conta Plantaginacee_Plantaginacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48146",
+    "Descrizione": "Conta Urticacee_Urticacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48147",
+    "Descrizione": "Conta Cupressacee - Taxacee indistinto_Cipresso comune",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48148",
+    "Descrizione": "Conta Cupressacee - Taxacee indistinta_Cupressacee - Taxac",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48149",
+    "Descrizione": "Conta Chenopodiacee - Amarantacee Indistinte_Amaranto",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48150",
+    "Descrizione": "Conta Chenopodiacee - Amarantacee Indistinte_Chenopodiacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48151",
+    "Descrizione": "Conta Poligonacee_Poligonacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48152",
+    "Descrizione": "Conta Euphorbiacee_Euforbiacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48153",
+    "Descrizione": "Conta Mirtacee_Mirtacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48154",
+    "Descrizione": "Conta Ulmacee_Bagolaro comune",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48155",
+    "Descrizione": "Conta Ulmacee_Olmo campestre",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48156",
+    "Descrizione": "Conta Ulmacee_Ulmacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48157",
+    "Descrizione": "Conta Platanacee_Platanacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48158",
+    "Descrizione": "Conta Aceraceae_Aceracee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48159",
+    "Descrizione": "Conta Pinacee_Pinacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48160",
+    "Descrizione": "Conta Salicacee_Salice comune",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48161",
+    "Descrizione": "Conta Salicacee_Pioppo",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48162",
+    "Descrizione": "Conta Salicacee_Salicacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48163",
+    "Descrizione": "Conta Ciperacee_Ciperacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48164",
+    "Descrizione": "Conta Juglandacee_Juglandacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48165",
+    "Descrizione": "Conta Ippocastanacee_Ippocastanacee indistinta",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48166",
+    "Descrizione": "Conta Spore fungine_Alternaria",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48167",
+    "Descrizione": "Conta Spore fungine_Botrytis",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48168",
+    "Descrizione": "Conta Spore fungine_Stemphylium",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48169",
+    "Descrizione": "Conta Spore fungine_Cladosporium",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48170",
+    "Descrizione": "Conta Spore fungine_Epicoccum",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48171",
+    "Descrizione": "Conta Altri Pollini / Non Identificati_Altri pollini ident",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48172",
+    "Descrizione": "Conta Altri Pollini / Non Identificati_Pollini non identificativi",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48173",
+    "Descrizione": "Conta Altre Spore / Non identificati_Altre spore fungine",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48174",
+    "Descrizione": "Conta Altre Spore / Non identificati_Spore fungine non ide",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48175",
+    "Descrizione": "Conta Graminacee_Graminacee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48176",
+    "Descrizione": "Conta Plantaginacee_Plantaginacee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48177",
+    "Descrizione": "Conta Urticacee_Urticacee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48178",
+    "Descrizione": "Conta Poligonacee_Poligonacee indistinte 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48179",
+    "Descrizione": "Conta Euphorbiacee_Euforbiacee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48180",
+    "Descrizione": "Conta Mirtacee_Mirtacee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48181",
+    "Descrizione": "Conta Platanacee_Platanacee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48182",
+    "Descrizione": "Conta Aceraceae_Aceracee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48183",
+    "Descrizione": "Conta Pinacee_Pinacee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48184",
+    "Descrizione": "Conta Ciperacee_Ciperacee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48185",
+    "Descrizione": "Conta Juglandacee_Juglandacee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48186",
+    "Descrizione": "Conta Ippocastanacee_Ippocastanacee indistinta 1",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48187",
+    "Descrizione": "Conta Oleacee_Ligustro",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48188",
+    "Descrizione": "Conta Anacardiacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48189",
+    "Descrizione": "Conta Apocinacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48190",
+    "Descrizione": "Conta Araliacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48191",
+    "Descrizione": "Conta Boraginacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48192",
+    "Descrizione": "Conta Brassicacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48193",
+    "Descrizione": "Conta Cannabacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48194",
+    "Descrizione": "Conta Caprifoliacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48195",
+    "Descrizione": "Conta Cariofillacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48196",
+    "Descrizione": "Conta Cornacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48197",
+    "Descrizione": "Conta Elaegnacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48198",
+    "Descrizione": "Conta Lauracee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48199",
+    "Descrizione": "Conta Moracee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48200",
+    "Descrizione": "Conta Ramnacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48201",
+    "Descrizione": "Conta Rosacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48202",
+    "Descrizione": "Conta Rubiacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48203",
+    "Descrizione": "Conta Simaroubacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48204",
+    "Descrizione": "Conta Ombrellifere",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48205",
+    "Descrizione": "Conta Vitacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48206",
+    "Descrizione": "Conta Corilacee_Carpino",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48207",
+    "Descrizione": "Conta Corilacee_Ostria",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48208",
+    "Descrizione": "Conta Moracee-Broussonetia",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48209",
+    "Descrizione": "Conta Moracee-Morus",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48210",
+    "Descrizione": "Conta Leguminose",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B48211",
+    "Descrizione": "Conta Arecacee",
+    "Unità": "Numerico",
+    "Formato": "7 cifre"
+  },
+  {
+    "Codice": "B49192",
+    "Descrizione": "Numero di particelle con diametro <= 0,3 um",
+    "Unità": "Numerico",
+    "Formato": "#####000"
+  },
+  {
+    "Codice": "B49193",
+    "Descrizione": "Numero di particelle con diametro > 0,3 <= 0,5 um",
+    "Unità": "Numerico",
+    "Formato": "#####000"
+  },
+  {
+    "Codice": "B49194",
+    "Descrizione": "Numero di particelle con diametro > 0,5 <= 1,0 um",
+    "Unità": "Numerico",
+    "Formato": "#####00"
+  },
+  {
+    "Codice": "B49195",
+    "Descrizione": "Numero di particelle con diametro > 1,0 <= 2,5 um",
+    "Unità": "Numerico",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49196",
+    "Descrizione": "Numero di particelle con diametro > 2,5 <= 5,0 um",
+    "Unità": "Numerico",
+    "Formato": "5 cifre"
+  },
+  {
+    "Codice": "B49197",
+    "Descrizione": "Numero di particelle con diametro > 5,0 <= 10,0 um",
+    "Unità": "Numerico",
+    "Formato": "####.#"
+  },
+  {
+    "Codice": "B49198",
+    "Descrizione": "Densità delle particelle con diametro > 0,35 <= 0,46 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####00000"
+  },
+  {
+    "Codice": "B49199",
+    "Descrizione": "Densità delle particelle con diametro > 0,46 <= 0,66 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####00000"
+  },
+  {
+    "Codice": "B49200",
+    "Descrizione": "Densità delle particelle con diametro > 0,66 <= 1,0 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0000"
+  },
+  {
+    "Codice": "B49201",
+    "Descrizione": "Densità delle particelle con diametro > 1,0 <= 1,3 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0000"
+  },
+  {
+    "Codice": "B49202",
+    "Descrizione": "Densità delle particelle con diametro > 1,3 <= 1,7 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####000"
+  },
+  {
+    "Codice": "B49203",
+    "Descrizione": "Densità delle particelle con diametro > 1,7 <= 2,3 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####000"
+  },
+  {
+    "Codice": "B49204",
+    "Descrizione": "Densità delle particelle con diametro > 2,3 <= 3,0 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####000"
+  },
+  {
+    "Codice": "B49205",
+    "Descrizione": "Densità delle particelle con diametro > 3,0 <= 4,0 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####00"
+  },
+  {
+    "Codice": "B49206",
+    "Descrizione": "Densità delle particelle con diametro > 4,0 <= 5,2 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####00"
+  },
+  {
+    "Codice": "B49207",
+    "Descrizione": "Densità delle particelle con diametro > 5,2 <= 6,5 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####00"
+  },
+  {
+    "Codice": "B49208",
+    "Descrizione": "Densità delle particelle con diametro > 6,5 <= 8,0 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####00"
+  },
+  {
+    "Codice": "B49209",
+    "Descrizione": "Densità delle particelle con diametro > 8,0 <= 10,0 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####00"
+  },
+  {
+    "Codice": "B49210",
+    "Descrizione": "Densità delle particelle con diametro > 10 <= 12 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49211",
+    "Descrizione": "Densità delle particelle con diametro > 12 <= 14 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49212",
+    "Descrizione": "Densità delle particelle con diametro > 14 <= ​​16 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49213",
+    "Descrizione": "Densità delle particelle con diametro > 16 <= 18 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49214",
+    "Descrizione": "Densità delle particelle con diametro > 18 <= 20 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49215",
+    "Descrizione": "Densità delle particelle con diametro > 20 <= 22 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49216",
+    "Descrizione": "Densità delle particelle con diametro > 22 <= 25 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49217",
+    "Descrizione": "Densità delle particelle con diametro > 25 <= 28 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49218",
+    "Descrizione": "Densità delle particelle con diametro > 28 <= 31 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49219",
+    "Descrizione": "Densità delle particelle con diametro > 31 <= 34 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49220",
+    "Descrizione": "Densità delle particelle con diametro > 34 <= 37 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  },
+  {
+    "Codice": "B49221",
+    "Descrizione": "Densità delle particelle con diametro > 37 <= 40 um",
+    "Unità": "Numerico/M**3",
+    "Formato": "#####0"
+  }
+]
