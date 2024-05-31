@@ -5,7 +5,7 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
-fileDestName = "arpa_lombardia_tipi_sensore.csv"
+fileDestName = "regione_lombardia_tipi_sensore.csv"
 
 try:
 

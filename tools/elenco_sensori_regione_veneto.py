@@ -4,7 +4,7 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
-fileDestName = "arpa_veneto_sensori.csv"
+fileDestName = "regione_veneto_sensori.csv"
 separatore = ","
 fineLinea = "\n"
 
