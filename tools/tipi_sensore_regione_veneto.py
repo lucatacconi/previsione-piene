@@ -112,5 +112,4 @@ try:
     fileDest.close()
 
 except Exception as e:
-    # print(e.__doc__)
-    print(e.message)
+    print(e)
