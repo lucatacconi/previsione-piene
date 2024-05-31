@@ -24,11 +24,21 @@ try:
 
     local_B_table_file.close()
 
+    local_B_table_json = json.loads(local_B_table)
 
-    json_object = json.loads(local_B_table)
+    dizionario = {}
+    for definizione in local_B_table_json:
+        dizionario[definizione["Codice"]] = definizione
+
+    if len(dizionario) == 0:
+        raise Exception("Dizionario vuoto")
+
+    #Lettura del file con i tipi di sensore della regione emilia romagna
 
 
-    print(local_B_table)
+
+
+    print(dizionario)
 
 
 except Exception as e:
