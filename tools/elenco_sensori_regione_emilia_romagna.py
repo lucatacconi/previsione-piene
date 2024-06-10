@@ -2,6 +2,7 @@ import os
 import sys
 import requests
 import hashlib
+import json
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -77,6 +78,8 @@ try:
 
     cnt_stazioni = 0
 
+    tipi_letti = []
+
     for stazione in data_response.split('\n'):
 
         if stazione == "":
@@ -87,34 +90,39 @@ try:
         if len(json_stazione['data']) == 0:
             raise Exception("Dati stazione mancanti:" + str(cnt_stazioni))
 
-        round = 0
+        giri = 0
+
+        codice_univoco_sensore = ''
+        id_sensore = ''
+        id_stazione = ''
+        nome = ''
+        quota = ''
+        provincia = ''
+        data_installazione = ''
+        storico = ''
+        latitudine = ''
+        longitudine = ''
+
         for data in json_stazione['data']:
 
-            codice_univoco_sensore = ''
-            id_sensore = ''
-            id_stazione = ''
-            nome = ''
-            quota = ''
-            provincia = ''
-            data_installazione = ''
-            storico = ''
-            latitudine = ''
-            longitudine = ''
-
-            if round == 0:
+            if giri == 0:
 
                 codice_univoco_sensore = ''
-                id_stazione = data['vars']['B01194'] #ID stazione, vedi file di conversione B TABLE
-                nome = data['vars']['B01019'] #Nome stazione, vedi file di conversione B TABLE
-                quota = data['vars']['B07030'] #Altezza sul mare (m), vedi file di conversione B TABLE
+                id_stazione = data['vars']['B01194']['v'] #ID stazione, vedi file di conversione B TABLE
+                nome = data['vars']['B01019']['v'] #Nome stazione, vedi file di conversione B TABLE
+                quota = str(data['vars']['B07030']['v']) #Altezza sul mare (m), vedi file di conversione B TABLE
                 provincia = ''
                 data_installazione = ''
                 storico = ''
                 unita_misura = ''
-                latitudine = data['vars']['B05001'] #Latitudine, vedi file di conversione B TABLE
-                longitudine = data['vars']['B06001'] #Longitudine, vedi file di conversione B TABLE
+                latitudine = str(data['vars']['B05001']['v']) #Latitudine, vedi file di conversione B TABLE
+                longitudine = str(data['vars']['B06001']['v']) #Longitudine, vedi file di conversione B TABLE
 
-                round += 1
+                # Devo normalizzare i dati della longitudine e latitudine perchè alcuni non hanno la virgola
+                latitudine.replace(",", ".")
+                longitudine.replace(",", ".")
+
+                giri += 1
 
             else:
 
@@ -129,28 +137,36 @@ try:
                         # if sensore['tipologia'] not in tipiSensoriConsentiti:
                         #     continue
 
-                        codice_univoco_sensore = hashlib.md5((id_stazione + sensore).encode()).hexdigest()
-                        file_destinazione.write(codice_univoco_sensore + separatore)
+                        chiave_sensore = id_stazione +'-'+ sensore +'-'+ latitudine +'-'+ longitudine
 
-                        tipologia_aggregata = ''
+                        if chiave_sensore not in tipi_letti:
+                            tipi_letti.append(chiave_sensore)
 
-                        file_destinazione.write((id_stazione +'-'+ sensore) + separatore)
-                        file_destinazione.write(descrizione_sensore + separatore)
-                        file_destinazione.write(tipologia_aggregata + separatore)
-                        file_destinazione.write(unita_misura + separatore)
-                        file_destinazione.write(id_stazione + separatore)
-                        file_destinazione.write(nome + separatore)
-                        file_destinazione.write(quota + separatore)
-                        file_destinazione.write(provincia + separatore)
-                        file_destinazione.write(data_installazione + separatore)
-                        file_destinazione.write(storico + separatore)
-                        file_destinazione.write(latitudine + separatore)
-                        file_destinazione.write(longitudine)
-                        file_destinazione.write(fine_linea)
+                            codice_univoco_sensore = hashlib.md5((id_stazione + sensore).encode()).hexdigest()
+                            file_destinazione.write(codice_univoco_sensore + separatore)
 
-                        elementi_letti += 1
+                            tipologia_aggregata = ''
 
-    #Lettura del file con i tipi di sensore della regione emilia romagna
+                            file_destinazione.write(chiave_sensore + separatore)
+                            file_destinazione.write(descrizione_sensore + separatore)
+                            file_destinazione.write(tipologia_aggregata + separatore)
+                            file_destinazione.write(unita_misura + separatore)
+                            file_destinazione.write(id_stazione + separatore)
+                            file_destinazione.write(nome + separatore)
+                            file_destinazione.write(quota + separatore)
+                            file_destinazione.write(provincia + separatore)
+                            file_destinazione.write(data_installazione + separatore)
+                            file_destinazione.write(storico + separatore)
+                            file_destinazione.write(latitudine + separatore)
+                            file_destinazione.write(longitudine)
+                            file_destinazione.write(fine_linea)
+
+                            elementi_letti += 1
+
+                giri += 1
+        cnt_stazioni += 1
+
+    #Lettura del file con i tipi di sensore della regione emilia romagna - Portata
 
     apiUrl = os.environ.get("ARPAE_EMILIA_ELENCO_SENSORI_PORTATA")
 
@@ -170,6 +186,8 @@ try:
 
     cnt_stazioni = 0
 
+    tipi_letti = []
+
     for stazione in data_response.split('\n'):
 
         if stazione == "":
@@ -180,34 +198,39 @@ try:
         if len(json_stazione['data']) == 0:
             raise Exception("Dati stazione mancanti:" + str(cnt_stazioni))
 
-        round = 0
+        giri = 0
+
+        codice_univoco_sensore = ''
+        id_sensore = ''
+        id_stazione = ''
+        nome = ''
+        quota = ''
+        provincia = ''
+        data_installazione = ''
+        storico = ''
+        latitudine = ''
+        longitudine = ''
+
         for data in json_stazione['data']:
 
-            codice_univoco_sensore = ''
-            id_sensore = ''
-            id_stazione = ''
-            nome = ''
-            quota = ''
-            provincia = ''
-            data_installazione = ''
-            storico = ''
-            latitudine = ''
-            longitudine = ''
-
-            if round == 0:
+            if giri == 0:
 
                 codice_univoco_sensore = ''
-                id_stazione = data['vars']['B01194'] #ID stazione, vedi file di conversione B TABLE
-                nome = data['vars']['B01019'] #Nome stazione, vedi file di conversione B TABLE
-                quota = data['vars']['B07030'] #Altezza sul mare (m), vedi file di conversione B TABLE
+                id_stazione = data['vars']['B01194']['v'] #ID stazione, vedi file di conversione B TABLE
+                nome = data['vars']['B01019']['v'] #Nome stazione, vedi file di conversione B TABLE
+                quota = str(data['vars']['B07030']['v']) #Altezza sul mare (m), vedi file di conversione B TABLE
                 provincia = ''
                 data_installazione = ''
                 storico = ''
                 unita_misura = ''
-                latitudine = data['vars']['B05001'] #Latitudine, vedi file di conversione B TABLE
-                longitudine = data['vars']['B06001'] #Longitudine, vedi file di conversione B TABLE
+                latitudine = str(data['vars']['B05001']['v']) #Latitudine, vedi file di conversione B TABLE
+                longitudine = str(data['vars']['B06001']['v']) #Longitudine, vedi file di conversione B TABLE
 
-                round += 1
+                # Devo normalizzare i dati della longitudine e latitudine perchè alcuni non hanno la virgola
+                latitudine.replace(",", ".")
+                longitudine.replace(",", ".")
+
+                giri += 1
 
             else:
 
@@ -222,34 +245,38 @@ try:
                         # if sensore['tipologia'] not in tipiSensoriConsentiti:
                         #     continue
 
-                        codice_univoco_sensore = hashlib.md5((id_stazione + sensore).encode()).hexdigest()
-                        file_destinazione.write(codice_univoco_sensore + separatore)
+                        chiave_sensore = id_stazione +'-'+ sensore +'-'+ latitudine +'-'+ longitudine
 
-                        tipologia_aggregata = ''
+                        if chiave_sensore not in tipi_letti:
+                            tipi_letti.append(chiave_sensore)
 
-                        file_destinazione.write((id_stazione +'-'+ sensore) + separatore)
-                        file_destinazione.write(descrizione_sensore + separatore)
-                        file_destinazione.write(tipologia_aggregata + separatore)
-                        file_destinazione.write(unita_misura + separatore)
-                        file_destinazione.write(id_stazione + separatore)
-                        file_destinazione.write(nome + separatore)
-                        file_destinazione.write(quota + separatore)
-                        file_destinazione.write(provincia + separatore)
-                        file_destinazione.write(data_installazione + separatore)
-                        file_destinazione.write(storico + separatore)
-                        file_destinazione.write(latitudine + separatore)
-                        file_destinazione.write(longitudine)
-                        file_destinazione.write(fine_linea)
+                            codice_univoco_sensore = hashlib.md5((id_stazione + sensore).encode()).hexdigest()
+                            file_destinazione.write(codice_univoco_sensore + separatore)
 
-                        elementi_letti += 1
+                            tipologia_aggregata = ''
 
+                            file_destinazione.write(chiave_sensore + separatore)
+                            file_destinazione.write(descrizione_sensore + separatore)
+                            file_destinazione.write(tipologia_aggregata + separatore)
+                            file_destinazione.write(unita_misura + separatore)
+                            file_destinazione.write(id_stazione + separatore)
+                            file_destinazione.write(nome + separatore)
+                            file_destinazione.write(quota + separatore)
+                            file_destinazione.write(provincia + separatore)
+                            file_destinazione.write(data_installazione + separatore)
+                            file_destinazione.write(storico + separatore)
+                            file_destinazione.write(latitudine + separatore)
+                            file_destinazione.write(longitudine)
+                            file_destinazione.write(fine_linea)
+
+                            elementi_letti += 1
+
+                giri += 1
         cnt_stazioni += 1
 
-    print("Letti " + str(elementi_letti ) + " dettagli sensore.")
+    print("Letti " + str(elementi_letti) + " dettagli sensore.")
 
     file_destinazione.close()
-
-
 
 except Exception as e:
     print(e)
