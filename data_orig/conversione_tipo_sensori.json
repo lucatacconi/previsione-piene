@@ -1,196 +1,200 @@
 {
-    "Lombardia":{
+    "LOMBARDIA":{
         "Precipitazione":{
             "codice": "PRECIPITAZIONE",
-            "desc":"Precipitazione",
-            "desc_dettaglio":"Precipitazione",
-            "unit":"mm",
-            "type":"float"
+            "descrizione":"Precipitazione",
+            "descrizione_dettaglio":"Precipitazione",
+            "unita_misura":"mm"
         },
         "Velocità Vento":{
             "codice": "VELOCITA_VENTO",
-            "desc":"Velocità Vento",
-            "desc_dettaglio":"Velocità Vento",
-            "unit":"m/s",
-            "type":"float"
+            "descrizione":"Velocità Vento",
+            "descrizione_dettaglio":"Velocità Vento",
+            "unita_misura":"m/s"
         },
         "Direzione Vento":{
             "codice": "DIREZIONE_VENTO",
-            "desc":"Direzione Vento",
-            "desc_dettaglio":"Direzione Vento",
-            "unit":"°",
-            "type":"float"
+            "descrizione":"Direzione Vento",
+            "descrizione_dettaglio":"Direzione Vento",
+            "unita_misura":"°"
         },
         "Altezza Neve":{
             "codice": "ALTEZZA_NEVE",
-            "desc":"Altezza Neve",
-            "desc_dettaglio":"Altezza Neve",
-            "unit":"cm",
-            "type":"float"
+            "descrizione":"Altezza Neve",
+            "descrizione_dettaglio":"Altezza Neve",
+            "unita_misura":"cm"
         },
         "Umidità Relativa":{
             "codice": "UMIDITA_RELATIVA",
-            "desc":"Umidità Relativa",
-            "desc_dettaglio":"Umidità Relativa",
-            "unit":"%",
-            "type":"float"
+            "descrizione":"Umidità Relativa",
+            "descrizione_dettaglio":"Umidità Relativa",
+            "unita_misura":"%"
         },
         "Radiazione Globale":{
             "codice": "RADIAZIONE_GLOBALE",
-            "desc":"Radiazione Globale",
-            "desc_dettaglio":"Radiazione Globale",
-            "unit":"W/m^2",
-            "type":"float"
+            "descrizione":"Radiazione Globale",
+            "descrizione_dettaglio":"Radiazione Globale",
+            "unita_misura":"W/m^2"
         },
         "Temperatura":{
             "codice": "TEMPERATURA",
-            "desc":"Temperatura",
-            "desc_dettaglio":"Temperatura",
-            "unit":"°C",
-            "type":"float"
+            "descrizione":"Temperatura",
+            "descrizione_dettaglio":"Temperatura",
+            "unita_misura":"°C"
         },
         "Livello Idrometrico":{
             "codice": "LIVELLO_IDROMETRICO",
-            "desc":"Livello Idrometrico",
-            "desc_dettaglio":"Livello Idrometrico",
-            "unit":"m",
-            "type":"float"
+            "descrizione":"Livello Idrometrico",
+            "descrizione_dettaglio":"Livello Idrometrico",
+            "unita_misura":"m"
         }
     },
 
-    "veneto":{
+    "VENETO":{
         "Precipitazione":{
             "codice": "PRECIPITAZIONE",
-            "desc":"Precipitazione",
-            "desc_dettaglio":"Precipitazione",
-            "unit":"mm",
-            "type":"float"
+            "descrizione":"Precipitazione",
+            "descrizione_dettaglio":"Precipitazione",
+            "unita_misura":"mm"
         },
         "Livello Idrometrico":{
             "codice": "LIVELLO_IDROMETRICO",
-            "desc":"Livello Idrometrico",
-            "desc_dettaglio":"Livello Idrometrico",
-            "unit":"m",
-            "type":"float"
+            "descrizione":"Livello Idrometrico",
+            "descrizione_dettaglio":"Livello Idrometrico",
+            "unita_misura":"m"
         },
         "Livello idrometrico 1":{
             "codice": "LIVELLO_IDROMETRICO",
-            "desc":"Livello Idrometrico",
-            "desc_dettaglio":"Livello Idrometrico 1",
-            "unit":"m",
-            "type":"float"
+            "descrizione":"Livello Idrometrico",
+            "descrizione_dettaglio":"Livello Idrometrico 1",
+            "unita_misura":"m"
         },
         "Livello":{
             "codice": "LIVELLO_IDROMETRICO",
-            "desc":"Livello Idrometrico",
-            "desc_dettaglio":"Livello",
-            "unit":"m",
-            "type":"float"
+            "descrizione":"Livello Idrometrico",
+            "descrizione_dettaglio":"Livello",
+            "unita_misura":"m"
+        },
+        "Portata SIRAV":{
+            "codice": "PORTATA",
+            "descrizione":"Portata",
+            "descrizione_dettaglio":"Portata SIRAV",
+            "unita_misura":"m3/s"
+        },
+        "Portata":{
+            "codice": "PORTATA",
+            "descrizione":"Portata",
+            "descrizione_dettaglio":"Portata",
+            "unita_misura":"m3/s"
+        },
+        "Portata 1":{
+            "codice": "PORTATA",
+            "descrizione":"Portata",
+            "descrizione_dettaglio":"Portata 1",
+            "unita_misura":"m3/s"
+        },
+        "Portata idrometro pressione":{
+            "codice": "PORTATA",
+            "descrizione":"Portata",
+            "descrizione_dettaglio":"Portata idrometro pressione",
+            "unita_misura":"m3/s"
+        },
+        "Portata 3":{
+            "codice": "PORTATA",
+            "descrizione":"Portata",
+            "descrizione_dettaglio":"Portata 3",
+            "unita_misura":"m3/s"
         }
     },
 
-    "piemonte":{
+    "PIEMONTE":{
         "baro":{
             "codice": "PRESSIONE_ATMOSFERICA",
-            "desc":"Pressione Atmosferica",
-            "desc_dettaglio":"Pressione Atmosferica (baro)",
-            "unit":"atm",
-            "type":"float"
+            "descrizione":"Pressione Atmosferica",
+            "descrizione_dettaglio":"Pressione Atmosferica (baro)",
+            "unita_misura":"atm"
         },
         "dirv":{
             "codice": "DIREZIONE_VENTO",
-            "desc":"Direzione Vento",
-            "desc_dettaglio":"Direzione Vento (dirv)",
-            "unit":"°",
-            "type":"float"
+            "descrizione":"Direzione Vento",
+            "descrizione_dettaglio":"Direzione Vento (dirv)",
+            "unita_misura":"°"
         },
         "idro":{
             "codice": "LIVELLO_IDROMETRICO",
-            "desc":"Livello Idrometrico",
-            "desc_dettaglio":"Livello Idrometrico (idro)",
-            "unit":"m",
-            "type":"float"
+            "descrizione":"Livello Idrometrico",
+            "descrizione_dettaglio":"Livello Idrometrico (idro)",
+            "unita_misura":"m"
         },
         "igro":{
             "codice": "UMIDITA_RELATIVA",
-            "desc":"Umidità Relativa",
-            "desc_dettaglio":"Umidità Relativa (igro)",
-            "unit":"%",
-            "type":"float"
+            "descrizione":"Umidità Relativa",
+            "descrizione_dettaglio":"Umidità Relativa (igro)",
+            "unita_misura":"%"
         },
         "nivo":{
             "codice": "ALTEZZA_NEVE",
-            "desc":"Altezza Neve",
-            "desc_dettaglio":"Altezza Neve (nivo)",
-            "unit":"cm",
-            "type":"float"
+            "descrizione":"Altezza Neve",
+            "descrizione_dettaglio":"Altezza Neve (nivo)",
+            "unita_misura":"cm"
         },
         "nivo_v":{
             "codice": "ALTEZZA_NEVE",
-            "desc":"Altezza Neve",
-            "desc_dettaglio":"Altezza Neve (nivo_v)",
-            "unit":"cm",
-            "type":"float"
+            "descrizione":"Altezza Neve",
+            "descrizione_dettaglio":"Altezza Neve (nivo_v)",
+            "unita_misura":"cm"
         },
         "pluv":{
             "codice": "LIVELLO_PIOGGIA",
-            "desc":"Livello Pioggia",
-            "desc_dettaglio":"Livello Pioggia (pluv)",
-            "unit":"mm",
-            "type":"float"
+            "descrizione":"Livello Pioggia",
+            "descrizione_dettaglio":"Livello Pioggia (pluv)",
+            "unita_misura":"mm"
         },
         "pluv_hh":{
             "codice": "LIVELLO_PIOGGIA",
-            "desc":"Livello Pioggia",
-            "desc_dettaglio":"Livello Pioggia (pluv_hh)",
-            "unit":"mm",
-            "type":"float"
+            "descrizione":"Livello Pioggia",
+            "descrizione_dettaglio":"Livello Pioggia (pluv_hh)",
+            "unita_misura":"mm"
         },
         "radd":{
             "codice": "RADIAZIONE_SOLARE",
-            "desc":"Radiazione Solare",
-            "desc_dettaglio":"Radiazione Solare (radd)",
-            "unit":"W/m^2",
-            "type":"float"
+            "descrizione":"Radiazione Solare",
+            "descrizione_dettaglio":"Radiazione Solare (radd)",
+            "unita_misura":"W/m^2"
         },
         "terma":{
             "codice": "TEMPERATURA",
-            "desc":"Temperatura",
-            "desc_dettaglio":"Temperatura (terma)",
-            "unit":"°C",
-            "type":"float"
+            "descrizione":"Temperatura",
+            "descrizione_dettaglio":"Temperatura (terma)",
+            "unita_misura":"°C"
         },
         "uv":{
             "codice": "UV_INDEX",
-            "desc":"UV Index",
-            "desc_dettaglio":"Velocità Vento (UV Index)",
-            "unit":"",
-            "type":"float"
+            "descrizione":"UV Index",
+            "descrizione_dettaglio":"Velocità Vento (UV Index)",
+            "unita_misura":""
         },
         "velr":{
             "codice": "VELOCITA_RAFFICA",
-            "desc":"Velocità Raffica",
-            "desc_dettaglio":"Velocità Vento (velr)",
-            "unit":"m/s",
-            "type":"float"
+            "descrizione":"Velocità Raffica",
+            "descrizione_dettaglio":"Velocità Vento (velr)",
+            "unita_misura":"m/s"
         },
         "vels":{
             "codice": "VELOCITA_VENTO",
-            "desc":"Velocità Vento",
-            "desc_dettaglio":"Velocità Vento (vels)",
-            "unit":"m/s",
-            "type":"float"
+            "descrizione":"Velocità Vento",
+            "descrizione_dettaglio":"Velocità Vento (vels)",
+            "unita_misura":"m/s"
         },
         "velv":{
             "codice": "VELOCITA_VENTO",
-            "desc":"Velocità Vento",
-            "desc_dettaglio":"Velocità Vento (velv)",
-            "unit":"m/s",
-            "type":"float"
+            "descrizione":"Velocità Vento",
+            "descrizione_dettaglio":"Velocità Vento (velv)",
+            "unita_misura":"m/s"
         }
     },
 
-    "emilia_romagna":{
+    "EMILIA_ROMAGNA":{
 
     }
 }
