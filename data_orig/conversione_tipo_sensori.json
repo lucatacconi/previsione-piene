@@ -1,0 +1,197 @@
+{
+    "Lombardia":{
+        "Precipitazione":{
+            "codice": "PRECIPITAZIONE",
+            "desc":"Precipitazione",
+            "desc_dettaglio":"Precipitazione",
+            "unit":"mm",
+            "type":"float"
+        },
+        "Velocità Vento":{
+            "codice": "VELOCITA_VENTO",
+            "desc":"Velocità Vento",
+            "desc_dettaglio":"Velocità Vento",
+            "unit":"m/s",
+            "type":"float"
+        },
+        "Direzione Vento":{
+            "codice": "DIREZIONE_VENTO",
+            "desc":"Direzione Vento",
+            "desc_dettaglio":"Direzione Vento",
+            "unit":"°",
+            "type":"float"
+        },
+        "Altezza Neve":{
+            "codice": "ALTEZZA_NEVE",
+            "desc":"Altezza Neve",
+            "desc_dettaglio":"Altezza Neve",
+            "unit":"cm",
+            "type":"float"
+        },
+        "Umidità Relativa":{
+            "codice": "UMIDITA_RELATIVA",
+            "desc":"Umidità Relativa",
+            "desc_dettaglio":"Umidità Relativa",
+            "unit":"%",
+            "type":"float"
+        },
+        "Radiazione Globale":{
+            "codice": "RADIAZIONE_GLOBALE",
+            "desc":"Radiazione Globale",
+            "desc_dettaglio":"Radiazione Globale",
+            "unit":"W/m^2",
+            "type":"float"
+        },
+        "Temperatura":{
+            "codice": "TEMPERATURA",
+            "desc":"Temperatura",
+            "desc_dettaglio":"Temperatura",
+            "unit":"°C",
+            "type":"float"
+        },
+        "Livello Idrometrico":{
+            "codice": "LIVELLO_IDROMETRICO",
+            "desc":"Livello Idrometrico",
+            "desc_dettaglio":"Livello Idrometrico",
+            "unit":"m",
+            "type":"float"
+        }
+    },
+
+    "veneto":{
+        "Precipitazione":{
+            "codice": "PRECIPITAZIONE",
+            "desc":"Precipitazione",
+            "desc_dettaglio":"Precipitazione",
+            "unit":"mm",
+            "type":"float"
+        },
+        "Livello Idrometrico":{
+            "codice": "LIVELLO_IDROMETRICO",
+            "desc":"Livello Idrometrico",
+            "desc_dettaglio":"Livello Idrometrico",
+            "unit":"m",
+            "type":"float"
+        },
+        "Livello idrometrico 1":{
+            "codice": "LIVELLO_IDROMETRICO",
+            "desc":"Livello Idrometrico",
+            "desc_dettaglio":"Livello Idrometrico 1",
+            "unit":"m",
+            "type":"float"
+        },
+        "Livello":{
+            "codice": "LIVELLO_IDROMETRICO",
+            "desc":"Livello Idrometrico",
+            "desc_dettaglio":"Livello",
+            "unit":"m",
+            "type":"float"
+        }
+    },
+
+    "piemonte":{
+        "baro":{
+            "codice": "PRESSIONE_ATMOSFERICA",
+            "desc":"Pressione Atmosferica",
+            "desc_dettaglio":"Pressione Atmosferica (baro)",
+            "unit":"atm",
+            "type":"float"
+        },
+        "dirv":{
+            "codice": "DIREZIONE_VENTO",
+            "desc":"Direzione Vento",
+            "desc_dettaglio":"Direzione Vento (dirv)",
+            "unit":"°",
+            "type":"float"
+        },
+        "idro":{
+            "codice": "LIVELLO_IDROMETRICO",
+            "desc":"Livello Idrometrico",
+            "desc_dettaglio":"Livello Idrometrico (idro)",
+            "unit":"m",
+            "type":"float"
+        },
+        "igro":{
+            "codice": "UMIDITA_RELATIVA",
+            "desc":"Umidità Relativa",
+            "desc_dettaglio":"Umidità Relativa (igro)",
+            "unit":"%",
+            "type":"float"
+        },
+        "nivo":{
+            "codice": "ALTEZZA_NEVE",
+            "desc":"Altezza Neve",
+            "desc_dettaglio":"Altezza Neve (nivo)",
+            "unit":"cm",
+            "type":"float"
+        },
+        "nivo_v":{
+            "codice": "ALTEZZA_NEVE",
+            "desc":"Altezza Neve",
+            "desc_dettaglio":"Altezza Neve (nivo_v)",
+            "unit":"cm",
+            "type":"float"
+        },
+        "pluv":{
+            "codice": "LIVELLO_PIOGGIA",
+            "desc":"Livello Pioggia",
+            "desc_dettaglio":"Livello Pioggia (pluv)",
+            "unit":"mm",
+            "type":"float"
+        },
+        "pluv_hh":{
+            "codice": "LIVELLO_PIOGGIA",
+            "desc":"Livello Pioggia",
+            "desc_dettaglio":"Livello Pioggia (pluv_hh)",
+            "unit":"mm",
+            "type":"float"
+        },
+        "radd":{
+            "codice": "RADIAZIONE_SOLARE",
+            "desc":"Radiazione Solare",
+            "desc_dettaglio":"Radiazione Solare (radd)",
+            "unit":"W/m^2",
+            "type":"float"
+        },
+        "terma":{
+            "codice": "TEMPERATURA",
+            "desc":"Temperatura",
+            "desc_dettaglio":"Temperatura (terma)",
+            "unit":"°C",
+            "type":"float"
+        },
+        "uv":{
+            "codice": "UV_INDEX",
+            "desc":"UV Index",
+            "desc_dettaglio":"Velocità Vento (UV Index)",
+            "unit":"",
+            "type":"float"
+        },
+        "velr":{
+            "codice": "VELOCITA_RAFFICA",
+            "desc":"Velocità Raffica",
+            "desc_dettaglio":"Velocità Vento (velr)",
+            "unit":"m/s",
+            "type":"float"
+        },
+        "vels":{
+            "codice": "VELOCITA_VENTO",
+            "desc":"Velocità Vento",
+            "desc_dettaglio":"Velocità Vento (vels)",
+            "unit":"m/s",
+            "type":"float"
+        },
+        "velv":{
+            "codice": "VELOCITA_VENTO",
+            "desc":"Velocità Vento",
+            "desc_dettaglio":"Velocità Vento (velv)",
+            "unit":"m/s",
+            "type":"float"
+        }
+    },
+
+    "emilia_romagna":{
+
+    }
+}
+
